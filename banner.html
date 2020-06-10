@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<!-- Mirrored from toyheroes.net/banner.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 09 Jun 2020 19:15:17 GMT -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>jQuery slideshow</title>
+    <script src="js/jquery.min.js"
+        type="text/javascript"></script>
+    <style type="text/css">
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+        /* CSS Document */
+        /* // image replacement */
+
+        #HOME_BANNER_container {
+            text-align: left;
+            width: 740px;
+            margin-bottom: 0px;
+            height: 252px;
+            margin-top: 0;
+            margin-right: 0px;
+            margin-left: 0px;
+            background-repeat: no-repeat;
+            background-color: transparent;
+            overflow: hidden;
+            float: left;
+            position: relative;
+            padding: 0px;
+            top: 0px;
+        }
+
+        #HOME_BANNER_container .left_container {
+            background-image: url(img/home_banner_bg_left.png);
+            background-repeat: no-repeat;
+            background-position: 0px 0px;
+            float: left;
+            height: 252px;
+            width: 7px;
+        }
+
+        #HOME_BANNER_container .middle_container {
+            float: left;
+            width: 726px;
+            height: 250px;
+        }
+
+        #HOME_BANNER_container .right_container {
+            background-image: url(img/home_banner_bg_right.png);
+            background-repeat: no-repeat;
+            background-position: 0px 0px;
+            float: right;
+            height: 252px;
+            width: 6px;
+        }
+
+        #HOME_BANNER_container .middle_container .top {
+            background-image: url(img/home_banner_bg_top.png);
+            background-repeat: repeat-x;
+            background-position: 0px 0px;
+            height: 6px;
+            width: 728px;
+            float: left;
+        }
+
+        #HOME_BANNER_container .middle_container .image_container {
+            float: left;
+            height: 238px;
+            width: 726px;
+            border: 1px solid #000;
+        }
+
+        #HOME_BANNER_container .middle_container .bottom {
+            background-image: url(img/home_banner_bg_bottom.png);
+            background-repeat: repeat-x;
+            background-position: 0px 0px;
+            height: 6px;
+            width: 728px;
+            float: left;
+        }
+
+        .buttons_bg {
+            background-image: url(img/home_banner_buttons_bg1.png);
+            background-repeat: no-repeat;
+            background-position: 0px 0px;
+            position: absolute;
+            top: 227px;
+            z-index: 1000;
+            height: 21px;
+            width: 212px;
+            background-color: transparent;
+            left: 523px;
+        }
+
+        #container {
+            margin: 0px;
+            padding: 0px;
+            width: 726px;
+            height: 238px;
+            background-image: url(img/cotent_page_banner_bg1.html);
+            background-repeat: no-repeat;
+        }
+
+        .slideshow {
+            width: 726px;
+            height: 238px;
+            list-style: none;
+            position: relative;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        ul.slideshow li {
+            position: absolute;
+            display: inline;
+        }
+
+        ul.slideshow li.show {
+            z-index: 500;
+        }
+
+        .control {
+            position: absolute;
+            left: 524px;
+            width: 212px;
+            top: 224px;
+            margin: 0px;
+            z-index: 1000;
+            background-image: url(img/home_banner_buttons_bg1.png);
+            background-repeat: no-repeat;
+            height: 25px;
+        }
+
+        .control li {
+            list-style: none;
+            float: left;
+            margin: 2px 0px;
+        }
+
+        .control li a {
+            color: transparent;
+            height: 15px;
+            width: 15px;
+            float: left;
+            background-image: url(img/btn_ban_home.png);
+            background-repeat: no-repeat;
+            background-position: left bottom;
+            margin-right: 7px;
+            margin-top: 7px;
+        }
+
+        .control li a:hover,
+        .control li.current a {
+            background-position: top;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="HOME_BANNER_container">
+
+
+        <div class="left_container"></div>
+        <div class="middle_container">
+
+            <div class="top"></div>
+
+            <div class="image_container" id="slider">
+
+
+                <ul>
+                        <li><a href="announcementone.html" target="_parent"><img alt="" src="img/banner/banner22.png" width="726" height="238"></a></li>
+                        <li><a href="announcementone.html" target="_parent"><img alt="" src="img/banner/banner22.png" width="726" height="238"></a></li>
+                        <li><a href="announcementone.html" target="_parent"><img alt="" src="img/banner/banner22.png" width="726" height="238"></a></li>
+                        <li><a href="announcementone.html" target="_parent"><img alt="" src="img/banner/banner22.jpg" width="726" height="238"></a></li>
+                        <li><a href="announcementone.html" target="_parent"><img alt="" src="img/banner/banner22.png" width="726" height="238"></a></li>
+                        <li><a href="announcementone.html" target="_parent"><img alt="" src="img/banner/banner22.png" width="726" height="238"></a></li>
+                        <li><a href="announcementone.html" target="_parent"><img alt="" src="img/banner/banner22.png" width="726" height="238"></a></li>
+                        <li><a href="announcementone.html" target="_parent"><img alt="" src="img/banner/banner22.png" width="726" height="238"></a></li>                    
+                </ul>
+            </div>
+
+
+            <div class="bottom"></div>
+        </div>
+
+
+        <div class="right_container"></div>
+    </div>
+
+    <ul class="control">
+
+    </ul>
+    <script type="text/javascript">
+        var fadeDuration = 1200;
+        var slideDuration = 5000;
+        var currentIndex = 1;
+        var nextIndex = 1;
+        var interval = null;
+        $(document).ready(function () {
+            var length = $('ul.slideshow li').length;
+            $('.control').html('');
+            for (var i = 1; i <= length; i++) {
+                $('.control').append('<li><a href="javascript:show(' + i + ');"></a>');
+            }
+            $("'ul.control li:nth-child(" + nextIndex + ")'").addClass('current');
+            $('ul.slideshow li').css({ opacity: 0.0 });
+            $("'ul.slideshow li:nth-child(" + nextIndex + ")'").addClass('show').animate({ opacity: 1.0 }, fadeDuration);
+            interval = setInterval('nextSlide();', slideDuration);
+
+        });
+        function nextSlide() {
+            //         if (interval != null) {
+            //             clearInterval(interval);
+            //             interval = null;
+            //         }
+            nextIndex = currentIndex + 1;
+            if (nextIndex > $('ul.slideshow li').length) {
+                nextIndex = 1;
+            }
+            $('ul.control li').removeClass('current');
+            $("'ul.control li:nth-child(" + nextIndex + ")'").addClass('current');
+            $("'ul.slideshow li:nth-child(" + nextIndex + ")'").stop("true", "true").addClass('show').animate({ opacity: 1.0 }, fadeDuration);
+            $("'ul.slideshow li:nth-child(" + currentIndex + ")'").stop("true", "true").animate({ opacity: 0.0 }, fadeDuration).removeClass('show');
+            currentIndex = nextIndex;
+            //  interval = setInterval('nextSlide();', slideDuration);
+        }
+
+        function show(id) {
+            if (interval != null) {
+                clearInterval(interval);
+                interval = null;
+            }
+            nextIndex = id;
+            $('ul.control li').removeClass('current');
+            $("'ul.control li:nth-child(" + nextIndex + ")'").addClass('current');
+            $('ul.slideshow li').stop("true", "true").css({ opacity: 0.0 });
+            $("'ul.slideshow li:nth-child(" + nextIndex + ")'").stop("true", "true").addClass('show').animate({ opacity: 1.0 }, fadeDuration);
+            //  interval = setInterval('nextSlide();', slideDuration);
+        }
+        $('.image_container ul').addClass("slideshow");
+    </script>
+</body>
+
+</html>

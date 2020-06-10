@@ -1,0 +1,464 @@
+<html>
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+        <meta charset="utf-8" />
+        <title>Wrath of Darkness - 2D RPG</title>    
+    <link href="css/toyheroes.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
+
+<style>
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #272727;
+  border:1px solid #404040;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  top:20px;
+  left:0px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.arrow-down {
+    width: 0px;
+    height: 0px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #e8e8e8;
+    margin-left:5px;
+}
+</style>
+</style>
+
+</head>
+
+<body>
+    <div class="layout_wrapper">
+        <div class="home_header_wrapper">
+            <div class="header_top_nav">
+                    <div class="nav_top_container">
+
+                </div>
+            </div>
+            <div class="header_bottom">
+                <div class="home_header_middle">
+                    <a href="index.html">
+                        <div class="bb_logo">
+                        </div>
+                    </a>
+                </div>
+                <div class="nav">
+                    <div class="nav_container">
+                        <div class="ddsmoothmenu" id="smoothmenu1">
+                            <ul>
+                                <li>
+                                    <div class="nav_divider">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="btn_nav_home_en">
+                                    <a href="index.html" class=""><span class="btn_nav_hide">Home</span></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="nav_divider">
+                                    </div>
+                                </li>
+                                <li style="margin-right:20px">
+                                    <div class="btn_nav_download_en">
+                                        <a href="gameplay/WebMain.swf" class=""><span class="btn_nav_hide">Download</span></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="nav_divider">
+                                    </div>
+                                </li>                            
+                                    <div class="nav_divider">
+                                    </div>
+                                </li>
+                                <li style="margin-right:20px">
+                                    <div class="btn_nav_media_en">
+                                        <a href="https://discord.gg/82Zarnh" class=""><span class="btn_nav_hide">Discord</span></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="nav_divider">
+                                    </div>
+                                </li>            
+                                </li>
+                                <li style="margin-right:20px">
+                                    <div class="btn_nav_deposit_en">
+                                        <a href="https://discord.com/invite/82Zarnh" class=""><span class="btn_nav_hide">Charge RT</span></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_content_wrapper">
+<link href="https://fonts.googleapis.com/css?family=Abel&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;display=swap" rel="stylesheet">
+<link href="css/toyheroes_index.css" rel="stylesheet" type="text/css">
+<link href="css/toyheroes_news.css" rel="stylesheet" type="text/css">
+
+<style>
+    .menu-text {
+    display:inline-block;
+    margin-top:10px;
+    margin-bottom:20px;
+    font-family: 'Abel',sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 1px;
+    color: #333;
+}
+
+.menu-text-inactive {
+    display:inline-block;
+    margin-top:10px;
+    margin-bottom:20px;
+    font-family: 'Abel',sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 1px;
+    color: #c1c1c1;
+}
+
+.menu-bullet {
+    display:inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    color:gray;
+}
+
+    .header-txt {
+        font-family: 'Abel', sans-serif;
+        font-size: 28px;
+        font-weight: bold;
+        /*color: #513896;*/
+        color:#1b84ca;
+        position:relative;
+        top:7px;
+    }
+
+    .info-txt {
+        font-family: 'abel', sans-serif;
+        font-size: 18px;
+        color: #333;
+    }
+
+    .divider {
+        border-bottom: 1px solid #ccc;
+        padding: 20px 0;
+        margin-bottom:10px;
+        margin-top:-10px;
+    }
+
+    .divider-black {
+        border-bottom: 2px solid black;
+        margin-bottom:10px;
+        margin-top:10px;
+    }
+
+     .divider-small {
+        border-bottom: 1px solid #ccc;
+        margin-bottom:15px;
+        margin-top:10px;
+    }
+
+    .key {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        background: #eeecf2;
+        color: #513896;
+        border: 1px solid #513896;
+        border-radius: 3px;
+        font-family: 'Ubuntu',sans-serif;
+        font-size: 18px;
+        line-height: 30px;
+        box-shadow: 0px 1px 0px #333;
+    }
+
+    .key-long {
+        height: 30px;
+        width: initial;
+        padding: 0 10px;
+    }
+
+    iframe {
+        margin-right:5px;
+    }
+</style>
+
+ <style type="text/css">
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+        /* CSS Document */
+        /* // image replacement */
+
+        #HOME_BANNER_container {
+            text-align: left;
+            width: 740px;
+            margin-bottom: 0px;
+            height: 252px;
+            margin-top: 0;
+            margin-right: 0px;
+            margin-left: 0px;
+            background-repeat: no-repeat;
+            background-color: transparent;
+            overflow: hidden;
+            float: left;
+            position: relative;
+            padding: 0px;
+            top: 0px;
+        }
+
+        #HOME_BANNER_container .left_container {
+            background-image: url(img/home_banner_bg_left.png);
+            background-repeat: no-repeat;
+            background-position: 0px 0px;
+            float: left;
+            height: 252px;
+            width: 7px;
+        }
+
+        #HOME_BANNER_container .middle_container {
+            float: left;
+            width: 726px;
+            height: 250px;
+        }
+
+        #HOME_BANNER_container .right_container {
+            background-image: url(img/home_banner_bg_right.png);
+            background-repeat: no-repeat;
+            background-position: 0px 0px;
+            float: right;
+            height: 252px;
+            width: 6px;
+        }
+
+        #HOME_BANNER_container .middle_container .top {
+            background-image: url(img/home_banner_bg_top.png);
+            background-repeat: repeat-x;
+            background-position: 0px 0px;
+            height: 6px;
+            width: 728px;
+            float: left;
+        }
+
+        #HOME_BANNER_container .middle_container .image_container {
+            float: left;
+            height: 238px;
+            width: 726px;
+            border: 1px solid #000;
+        }
+
+        #HOME_BANNER_container .middle_container .bottom {
+            background-image: url(img/home_banner_bg_bottom.png);
+            background-repeat: repeat-x;
+            background-position: 0px 0px;
+            height: 6px;
+            width: 728px;
+            float: left;
+        }
+
+        .buttons_bg {
+            background-image: url(img/home_banner_buttons_bg1.png);
+            background-repeat: no-repeat;
+            background-position: 0px 0px;
+            position: absolute;
+            top: 227px;
+            z-index: 1000;
+            height: 21px;
+            width: 212px;
+            background-color: transparent;
+            left: 523px;
+        }
+
+        #container {
+            margin: 0px;
+            padding: 0px;
+            width: 726px;
+            height: 238px;
+            background-image: url(img/cotent_page_banner_bg1.html);
+            background-repeat: no-repeat;
+        }
+
+        .slideshow {
+            width: 726px;
+            height: 238px;
+            list-style: none;
+            position: relative;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        ul.slideshow li {
+            position: absolute;
+            display: inline;
+        }
+
+        ul.slideshow li.show {
+            z-index: 500;
+        }
+
+        .control {
+            position: absolute;
+            left: 524px;
+            width: 212px;
+            top: 224px;
+            margin: 0px;
+            z-index: 1000;
+            background-image: url(img/home_banner_buttons_bg1.png);
+            background-repeat: no-repeat;
+            height: 25px;
+        }
+
+        .control li {
+            list-style: none;
+            float: left;
+            margin: 2px 0px;
+        }
+
+        .control li a {
+            color: transparent;
+            height: 15px;
+            width: 15px;
+            float: left;
+            background-image: url(img/btn_ban_home.png);
+            background-repeat: no-repeat;
+            background-position: left bottom;
+            margin-right: 7px;
+            margin-top: 7px;
+        }
+
+        .control li a:hover,
+        .control li.current a {
+            background-position: top;
+        }
+
+        #news-container::-webkit-scrollbar-track
+    {
+        -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.2);
+        background-color: #F5F5F5;
+        border-radius: 3px;
+    }
+
+    #news-container::-webkit-scrollbar
+    {
+        width: 13px;
+        background-color: #F5F5F5;
+        border-radius: 3px;
+    }
+
+    #news-container::-webkit-scrollbar-thumb
+    {
+        background-color: #FF6300;
+        border-radius: 3px;
+    }
+    </style>
+
+
+
+<div class="top_wrapper" style="">
+    <div class="top">
+        <div class="left">
+        </div>
+        <div class="middle">
+            <div class="col1" style="width:190px;position:relative;left:0px;">
+                <a href="gameplay.html">
+                    <div class="btn_register">
+                    </div>
+                </a>
+                <a href="download.html">
+                    <div class="btn_download">
+                    </div>
+                </a>
+                
+            </div>
+            <div class="col2" style="width:743px;overflow:hidden;background-color:#6660">
+                <div id="HOME_BANNER_container" style="margin-left:0px;width:771px;">
+                    <div class="left_container" style="position:relative;top:-1px;"></div>
+                    <div class="middle_container" style="width:726px;">
+                        <div class="top"></div>
+                        <div style="height:245px;width:500px;"><img src="img/banner/banner22.png" style="width:730px;height:240px;object-fit: cover;"></img></div>
+                        <div class="bottom"></div>
+                    </div>
+                    <div class="right_container" style="float:left"></div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+        </div>
+    </div>
+    <div class="bottom">
+    </div>
+</div>
+
+<div class="bottom_wrapper" style="background-color: #753306;">
+
+<div style="display:inline-block;">
+    <div style="width:270px;height:30px;border:solid 3px #FF6300;border-bottom:none;    background-image: url(img/bg_transparent2.png);text-align:center">
+        <span class="mtho menu-text" style="font-size:20px;margin-left:0px;color:#f3f3f3;position:relative;bottom:8px;left:0px;">More News:</span>
+    </div>
+    <div style="width:300px; float:left;">
+        <div class="news_headline_container" style="margin-top:0px;height:440px;width:270px;border:solid 3px #FF6300;border-top-width:2px;">
+                        <div id="news_group_0">
+                                    <div class="news_headline" style="width:250px;" onclick="location.href='announcementone.html';">
+                        <div class="cl1">
+                                                            <img width="15" height="15" src="img/icon_news_announcement_en-de.png">
+                                                    </div>
+                        <div class="cl2" style="width:200px;text-overflow: ellipsis;overflow:hidden;white-space:nowrap">
+                            <a href="announcementone.html">Fresh Welcome!</a>
+                        </div>
+                        <div class="cl3">&nbsp;
+                        </div>
+                    </div>
+               </div>
+        </div>
+    </div>
+</div>
+<div style="display:inline-block;width:600px;vertical-align:top;margin-top:5px;">
+    <div style="width:100%;height:100%;background-color: #753306;text-align:left;">
+        <div style="position:relative;">
+            <img src="img/banner/news_headline.png" style="width:600px;;height:100px;"></img>
+            <span class="mtho menu-text" style="font-size:22px;margin-left:0px;color:#f3f3f3;position:absolute;top:25px;left:80px;text-shadow: 1px 1px #464646;font-family:Open Sans">Fresh Welcome!</span>
+            <div class="mtho menu-text" style="position:absolute;top:60px;left:155px;text-align:right;width:300px;text-align:right"><span style="font-size:17px;margin-left:0px;color:#b1b1b1;">9 June 2020</span></div>
+        </div>
+        <div style="width:100%;height:15px;"></div>
+        <div id="news-container" style="padding-left:20px;padding-right:60px;height:400px;overflow-y:auto;margin-top:-15px;">
+        <span style="font-family: 'Open Sans', sans-serif;font-size:17px;color:white">Dear Followers,<br><br>
+We have been working on this website for a while, we hope to see more progress in the far future of game development!<br><br>
+You can support development by donating: <a href="https://discord.gg/82Zarnh" <span style="font-size:17px;margin-left:0px;color:#b1b1b1;">https://discord.gg/82Zarnh</a></span>                
+ </div>
+</div>
+</body>
+</html>

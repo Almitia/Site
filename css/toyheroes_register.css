@@ -1,0 +1,1163 @@
+.bottom_wrapper {
+    width: 948px;
+    margin-top: 0px;
+    /*background-image: url(../img/bg_transparent1.png);*/
+    background-color: #292C34;
+    position: relative;
+    padding: 5px 5px 5px 5px;
+    display: block;
+    border: 1px solid #6D6D6D;
+    height: 820px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+a
+{
+    color: #09F;
+    text-decoration: none;
+    cursor: pointer;
+}
+.wrapper_register
+{
+    padding: 0px;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    vertical-align: middle;
+    margin-bottom: 0px;
+}
+.reg_form_container
+{
+    width: 487px;
+    margin-top: 10px;
+    margin-left: 60px;
+    /*float: left;*/
+}
+
+.reg_form_container .section1
+{
+    background-image: url(../img/mv/content_bg_top.png);
+    /*float: left;*/
+    height: 41px;
+    width: 487px;
+}
+.reg_form_container .section2
+{
+    background-image: url(../img/mv/content_bg_middle.png);
+    background-repeat: repeat-y;
+    width: 487px;
+    /*float: left;*/
+}
+
+.reg_form_container .step2_section2
+{
+    background-image: url(../img/mv/content_bg_middle.png);
+    background-repeat: repeat-y;
+    height: 370px;
+    width: 487px;
+    /*float: left;*/
+}
+
+
+.language_select
+{
+    height: 26px;
+    width: 270px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 110px;
+    border: 1px solid #333333;
+}
+.language_select .lan_text
+{
+    margin-top: 5px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.language_select .left_bg
+{
+    background-image: url(../img/mv/lan_select_bg_left.jpg);
+    background-repeat: repeat-x;
+    float: left;
+    height: 26px;
+    width: 143px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #FFF;
+    font-weight: bold;
+}
+.language_select .divider1
+{
+    background-color: #2a394a;
+    float: left;
+    height: 26px;
+    width: 1px;
+}
+.language_select .divider2
+{
+    background-color: #232e3b;
+    float: left;
+    height: 26px;
+    width: 1px;
+}
+.language_select .right_bg
+{
+    float: left;
+    height: 26px;
+    width: 125px;
+    background-image: url(../img/mv/mv_btn_language_select.html);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.language_select .right_bg:hover
+{
+    background-position: bottom;
+}
+
+.language_select .flag_en
+{
+    background-image: url(../img/mv/flag_english_uk.html);
+    background-repeat: no-repeat;
+    height: 11px;
+    width: 18px;
+    float: left;
+    margin-top: 6px;
+    margin-left: 15px;
+    border: 1px solid #333;
+    margin-right: 2px;
+}
+.language_select .text_en
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000;
+    width: 50px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 4px;
+    height: 15px;
+    font-weight: normal;
+    text-align: left;
+    text-decoration: none;
+}
+
+.reg_form_container .step1_title_container
+{
+    /*float: left;*/
+    width: 462px;
+    /*text-align: center;*/
+    /*margin-top: 15px;*/
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 10px;
+    color: #333333;
+}
+.step1_title_container .text_info
+{
+}
+
+
+.reg_form_container .reg_form
+{
+    width: 420px;
+    margin-left: 30px;
+    /*float: left;*/
+    font-size: 12px;
+    padding-top:20px;
+}
+.reg_form .blue_box
+{
+    float: left;
+    width: 350px;
+    background-color: #cef3ff;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 35px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    border: 1px solid #53d3fd;
+}
+.reg_form .row1
+{
+    /*float: left;*/
+    width: 380px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+}
+
+
+.reg_form .row1 .column1
+{
+    display: inline-block;
+    /*float: left;*/
+    width: 180px;
+    font-weight: bold;
+    margin-top: 2px;
+}
+.reg_form .row1 .column2
+{
+    display: inline-block;
+    /*float: left;*/
+    width: 120px;
+}
+.reg_form .row2
+{
+    float: left;
+    width: 380px;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+    font-size: 10px;
+    padding-left: 40px;
+}
+.reg_form .row3
+{
+    /*float: left;*/
+    /*width: 345px;*/
+    /*margin-bottom: 10px;*/
+    margin-left: 40px;
+    font-size: 10px;
+}
+
+.reg_form .row3 .column1
+{
+    float: left;
+    width: 180px;
+}
+.reg_form .row3 .column2
+{
+    float: left;
+    width: 165px;
+    font-size: 10px;
+    color: #333;
+}
+.reg_form .row3 .column3
+{
+    float: left;
+    width: 180px;
+    font-size: 10px;
+    color: #333;
+}
+.word_verfication_border
+{
+    border-top: 1px dashed #CCCCCC;
+    margin-top: 2px;
+    padding-top: 5px;
+    width: 200px;
+}
+.reg_form .row4
+{
+    /*float: left;*/
+    width: 340px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+.reg_form .row5
+{
+    /*float: left;*/
+    width: 370px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    border-top-width: 1px;
+    border-top-style: dashed;
+    border-top-color: #CCC;
+    padding-top: 10px;
+}
+.reg_form .register_textbox1
+{
+    background-color: #D7D7D7;
+    border: 1px solid #999;
+    width: 160px;
+    height: 24px;
+    padding: 2px;
+    color: #333;
+}
+.reg_form .security_question_dropdown
+{
+    width: 165px;
+    background-color: #D7D7D7;
+    border: 1px double #999;
+    font-size: 12px;
+    color: #333;
+    height: 22px;
+    padding: 2px;
+}
+.inside2 .reg_fb_connect_container
+{
+    height: 576px;
+    width: 472px;
+    float: left;
+    margin-left: 31px;
+    margin-top: 87px;
+}
+.reg_fb_connect_container .title_container
+{
+    width: 420px;
+    margin-left: 25px;
+    margin-top: 15px;
+    float: left;
+    padding-bottom: 5px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #CCC;
+    margin-bottom: 10px;
+}
+.reg_fb_connect_container .title_container .fb_connect_icon
+{
+    float: left;
+    margin-left: 30px;
+}
+.reg_fb_connect_container .info1
+{
+    font-size: 12px;
+    float: left;
+    width: 420px;
+    margin-left: 25px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #CCC;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.reg_fb_connect_container .info2
+{
+    font-size: 12px;
+    float: left;
+    width: 410px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+.wrapper_register .inside3
+{
+    height: 700px;
+    width: 960px;
+}
+.inside3 .reg_success
+{
+    height: 576px;
+    width: 472px;
+    float: left;
+    margin-left: 31px;
+    margin-top: 87px;
+}
+.reg_success .title_container
+{
+    width: 420px;
+    margin-left: 25px;
+    margin-top: 15px;
+    float: left;
+    padding-bottom: 5px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #CCC;
+    margin-bottom: 10px;
+}
+.reg_success .title_container .icon
+{
+    float: left;
+    margin-left: 30px;
+}
+.reg_success .title_container .title
+{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 30px;
+    float: left;
+}
+.reg_success .info1
+{
+    font-size: 12px;
+    float: left;
+    width: 380px;
+    margin-left: 55px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.redtext
+{
+    color: #F00;
+}
+.btn4_container
+{
+    /*float: left;*/
+    height: 42px;
+    width: 215px;
+    margin-left: 105px;
+}
+.btn4_left
+{
+    display: inline-block;
+    background-image: url(../img/mv/btn4_left.png);
+    /*float: left;*/
+    height: 42px;
+    width: 3px;
+}
+.btn4_middle
+{
+    display: inline-block;
+    background-image: url(../img/mv/btn4_middle.png);
+    background-repeat: repeat-x;
+    /*float: left;*/
+    height: 30px;
+    width: 209px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 12px;
+}
+.btn4_middle .arrow
+{
+    display: inline-block;
+    background-image: url(../img/mv/arrow.png);
+    /*float: left;*/
+    height: 12px;
+    width: 7px;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+.btn4_right
+{
+    display: inline-block;
+    background-image: url(../img/mv/btn4_right.png);
+    /*float: right;*/
+    height: 42px;
+    width: 3px;
+}
+.btn4_container:hover div
+{
+    background-position: bottom;
+}
+
+.info4
+{
+    float: left;
+    height: 42px;
+    margin-left: 0px;
+    width: 215px;
+}
+
+.reg_form_container .section3
+{
+    background-image: url(../img/mv/content_bg_bottom.png);
+    background-repeat: no-repeat;
+    /*float: left;*/
+    height: 37px;
+    width: 487px;
+}
+
+.section2 .info1
+{
+    width: 420px;
+    height: 180px;
+    margin-bottom: 5px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ccc;
+    margin-left: 34px;
+    font-size: 15px;
+}
+.section2 .info1 .left_container
+{
+    width: 180px;
+    float: left;
+    height: 140px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #ccc;
+}
+.section2 .info1 .left_container .title
+{
+    height: 35px;
+    width: 150px;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    color: #71CE09;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.section2 .info1 .left_container .check_mark
+{
+    background-image: url(../img/mv/checkmark.html);
+    height: 71px;
+    width: 108px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.section2 .info1 .right_container
+{
+    float: left;
+    width: 200px;
+    height: 140px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.section2 .info1 .right_container .btn_download:hover
+{
+    background-position: bottom;
+}
+
+.section2 .info1 .right_container .text2
+{
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: underline;
+    float: left;
+    width: 100px;
+    margin-left: 55px;
+    margin-top: 3px;
+}
+.section2 .info2
+{
+    width: 420px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-position: 0px bottom;
+    margin-left: 34px;
+    float: left;
+}
+.section2 .info2 .email_icon
+{
+    background-image: url(../img/mv/redeem_icon_email1.html);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    float: left;
+    height: 25px;
+    width: 32px;
+}
+.section2 .info2 .text_container
+{
+    float: left;
+    width: 370px;
+    margin-left: 17px;
+}
+.section2 .info2 .text_container .title
+{
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.section2 .info2 .text_container .description
+{
+    font-size: 11px;
+    font-weight: normal;
+}
+
+
+.step2_section2 .info2
+{
+    width: 420px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-position: 0px bottom;
+    margin-left: 34px;
+    float: left;
+}
+.reg_form_container .step2_section2 .title_container
+{
+    width: 420px;
+    height: 51px;
+    margin-bottom: 5px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ccc;
+    margin-left: 34px;
+}
+.step2_section2 .fb_connect_icon
+{
+    background-image: url(../img/mv/mv_fb_connect.html);
+    background-repeat: no-repeat;
+    float: left;
+    height: 51px;
+    width: 67px;
+}
+.step2_section2 .title_container .title
+{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 30px;
+    float: left;
+}
+
+.step2_section2 .info1
+{
+    font-size: 12px;
+    margin-bottom: 10px;
+    padding-left: 67px;
+    width: 420px;
+}
+.step2_section2 .info2
+{
+    width: 420px;
+    height: 224px;
+    background-image: url(../img/mv/lollipop_character.html);
+    background-repeat: no-repeat;
+    background-position: 0px bottom;
+    margin-left: 34px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ccc;
+}
+.step2_section2 .info2 .lollipop
+{
+    background-image: url(../img/mv/lollipop.html);
+    height: 121px;
+    width: 210px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+.step2_section2 .info2 .fb_btn
+{
+    float: right;
+    height: 50px;
+    width: 262px;
+    margin-top: 15px;
+    background-image: url(../img/mv/btn_connect_wth_facebook.html);
+    background-position: top;
+}
+.step2_section2 .info2 .fb_btn:hover
+{
+    background-image: url(../img/mv/btn_connect_wth_facebook.html);
+    background-position: bottom;
+}
+.step2_section2 .fb_btn .text
+{
+    color: #FFF;
+    font-weight: bold;
+    float: right;
+    font-size: 17px;
+    text-align: center;
+    width: 200px;
+    margin-right: 5px;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-top: 3px;
+}
+
+.step2_section2 .btn1_container
+{
+    height: 21px;
+    width: 54px;
+    float: right;
+    margin-right: 34px;
+    background-position: top;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.step2_section2 .btn1_container:hover span
+{
+    background-position: bottom;
+}
+.step2_section2 .btn1_container .left
+{
+    background-image: url(../img/mv/btn1_left.html);
+    float: left;
+    height: 21px;
+    width: 2px;
+    background-repeat: no-repeat;
+}
+.step2_section2 .btn1_container .middle
+{
+    background-image: url(../img/mv/btn1_middle.html);
+    background-repeat: repeat-x;
+    background-position: top;
+    width: 40px;
+    float: left;
+    height: 14px;
+    font-size: 12px;
+    color: #FFF;
+    padding-top: 3px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    font-weight: bold;
+}
+.step2_section2 .btn1_container .middle .text
+{
+    float: left;
+}
+.step2_section2 .btn1_container .middle .arrow_right
+{
+    float: left;
+    background-image: url(../img/mv/arrow_gray.html);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    height: 12px;
+    width: 7px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+.step2_section2 .btn1_container .right
+{
+    background-image: url(../img/mv/btn1_right.html);
+    float: left;
+    height: 21px;
+    width: 2px;
+}
+
+
+.info2 .facebook_box
+{
+    height: 151px;
+    width: 260px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 0px;
+    background-color: #666666;
+}
+.info2 .btn_redeem
+{
+    float: right;
+    height: 54px;
+    width: 262px;
+    margin-top: 5px;
+    background-image: url(../img/mv/redeem_lollipop.html);
+    background-position: top;
+    cursor: pointer;
+}
+.info2 .btn_redeem:hover
+{
+    background-position: bottom;
+}
+.btn_redeem .text
+{
+    color: #333;
+    font-weight: bold;
+    float: left;
+    font-size: 14px;
+    text-align: left;
+    width: 150px;
+    margin-right: 0px;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+
+.wrapper_footer_register
+{
+    color: #FFFFFF;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    height: 99px;
+    margin: 0px auto;
+    padding: 0;
+    width: 960px;
+}
+
+.wrapper_footer_register .logo_esrb
+{
+    background-image: url(../web/20130505135846im_/http_/www.microvolts.com/content/images/footer/esrb_logo.html);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    height: 79px;
+    width: 171px;
+    float: left;
+    margin-left: 85px;
+    margin-right: 10px;
+    margin-top: 9px;
+}
+.wrapper_footer_register .logo_pegi
+{
+    background-image: url(../web/20130505135846im_/http_/www.microvolts.com/content/images/footer/pegi_logo.html);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    height: 75px;
+    width: 254px;
+    float: left;
+    margin-top: 9px;
+    margin-right: 30px;
+}
+.wrapper_footer_register .logo_rockhippo
+{
+    background-image: url(../web/20130505135846im_/http_/www.microvolts.com/content/images/footer/footer_logo_rockhippo.html);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    height: 31px;
+    width: 116px;
+    float: left;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 130px;
+}
+.wrapper_footer_register .logo_nqgames
+{
+    background-image: url(../web/20130505135846im_/http_/www.microvolts.com/content/images/footer/footer_logo_nqgames.html);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    height: 34px;
+    width: 119px;
+    float: left;
+    margin-top: 15px;
+}
+.wrapper_footer_register .footer_container
+{
+    float: left;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 18px;
+    height: 30px;
+}
+.wrapper_footer_register .footer_container .terms
+{
+    float: left;
+    width: 100px;
+    text-decoration: underline;
+}
+.wrapper_footer_register .footer_container .policy
+{
+    float: left;
+    width: 100px;
+    text-decoration: underline;
+}
+
+.wrapper_footer_register .footer_container a
+{
+    color: #D3D3D3;
+    font-size: 12px;
+}
+.wrapper_footer_register .footer_container a:hover
+{
+    color: #FFF;
+}
+
+.container2 .info a
+{
+    float: left;
+    text-decoration: underline;
+    color: #676767;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+.container2 .info a:hover
+{
+    color: #999;
+}
+.container2 .info .terms
+{
+    float: left;
+    margin-left: 10px;
+    width: 100px;
+    text-decoration: underline;
+}
+.container2 .info .policy
+{
+    float: left;
+    width: 100px;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+
+
+.hasTooltips
+{
+    position: relative;
+    z-index: 24;
+    color: #000;
+    text-decoration: none;
+}
+
+.hasTooltips .tooltips
+{
+    z-index: 1024;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 180px;
+    min-width: 80px;
+    border: 1px solid gray;
+    background-color: #ffff99;
+    color: #2b2b2b;
+    text-align: center;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 5px 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 3px 3px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+
+
+#transparent_blanket
+{
+    width: 100%;
+    background-image: url(../web/20130505135846im_/http_/www.microvolts.com/Content/css/images/bg/transparent_bg.html);
+    background-repeat: repeat;
+    min-height: 135%;
+    position: absolute;
+    z-index: 5000000;
+    overflow: hidden;
+    left: -4px;
+    top: -2px;
+}
+#transparent_blanket .btn_reg_close
+{
+    background-image: url(../web/20130505135846im_/http_/www.microvolts.com/Content/css/images/buttons/btn_close.html);
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 13px;
+    width: 14px;
+    position: absolute;
+    z-index: 1;
+    left: 327px;
+    top: -1px;
+}
+#transparent_blanket .btn_reg_close:hover
+{
+    background-position: bottom;
+}
+#transparent_blanket .register_success_container
+{
+    background-color: #FFF;
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+    border: 2px solid #999;
+    position: relative;
+    margin-top: 280px;
+    left: 100px;
+    padding: 20px;
+    height: 350px;
+}
+#transparent_blanket .reg_success_container .section2
+{
+    background-image: url(../img/mv/content_bg_middle.png);
+    background-repeat: repeat-y;
+    width: 300px;
+    float: left;
+}
+#transparent_blanket .section2 .info2
+{
+    width: 300px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-position: 0px bottom;
+    float: left;
+}
+#transparent_blanket .section2 .info2 .email_icon
+{
+    background-image: url(../img/mv/redeem_icon_email1.html);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    float: left;
+    height: 20px;
+    width: 25px;
+    margin-right: 10px;
+    margin-left: 35px;
+}
+#transparent_blanket .section2 .info2 .text_container
+{
+    float: left;
+}
+#transparent_blanket .section2 .info2 .text_container .title
+{
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 4px;
+}
+#transparent_blanket .section2 .info2 .text_container .description
+{
+    font-size: 11px;
+    font-weight: normal;
+    float: left;
+}
+#transparent_blanket .info1 .success_container
+{
+    width: 300px;
+    float: left;
+}
+#transparent_blanket .info1 .success_container .title
+{
+    float: left;
+    font-size: 12px;
+    color: #67BE07;
+    text-align: center;
+    margin-top: 1px;
+    font-weight: bold;
+}
+#transparent_blanket .info1 .success_container .check_mark
+{
+    background-image: url(../img/mv/checkmark.html);
+    height: 17px;
+    width: 25px;
+    float: left;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+#transparent_blanket .info1 .game_start
+{
+    float: left;
+    width: 255px;
+    padding-left: 45px;
+}
+#transparent_blanket .info1 .game_start .text1
+{
+    float: left;
+    font-size: 12px;
+    width: 180px;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+#transparent_blanket .info1 .game_start .text2
+{
+    font-weight: bold;
+    font-size: 16px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 3px;
+    background-image: url(../img/mv/arrow_blue2.html);
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 12px;
+    width: 95px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #09F;
+}
+#transparent_blanket .download_box
+{
+    background-image: url(../img/mv/download_box.html);
+    background-repeat: no-repeat;
+    height: 125px;
+    width: 272px;
+    position: relative;
+    float: left;
+    margin-left: 13px;
+}
+#transparent_blanket .download_box .title
+{
+    font-size: 11px;
+    color: #FFF;
+    margin-bottom: 13px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    float: left;
+    width: 272px;
+}
+#transparent_blanket .download_box .free_en
+{
+    height: 52px;
+    width: 51px;
+    position: absolute;
+    z-index: 1;
+    background-image: url(../img/mv/free_en.html);
+    background-repeat: no-repeat;
+    left: 218px;
+    top: 70px;
+}
+#transparent_blanket .dashed_line
+{
+    height: 1px;
+    width: 300px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: #CCC;
+}
+#transparent_blanket a
+{
+    color: #09F;
+    text-decoration: none;
+}
+#transparent_blanket .btn_download_en
+{
+    background-image: url(../img/mv/home_btn_download_en.html);
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 55px;
+    width: 172px;
+    float: left;
+    position: absolute;
+    z-index: 2;
+    top: 50px;
+    left: 52px;
+}
+#transparent_blanket .button
+{
+}
+#transparent_blanket .button:hover
+{
+    background-position: bottom;
+}
+
+.step1_title_container .rh_icon {
+	/*float: left;*/
+	background-image: url(../web/20130505135845im_/http_/www.microvolts.com/content/images/REGISTER/icon_hippo.html);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 30px;
+	width: 30px;
+	margin-left: /*115px*/100px;
+	margin-right: 10px;
+}
+.step1_title_container .title1 {
+	/*float: left;*/
+    width:100%;
+    text-align: center;
+}
+.step1_title_container .title2 {
+    /*float: left;*/
+    text-align: center;
+	font-size: 10px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #666;
+    width: 100%;
+}
+.info1 .right_container .title {
+	font-size: 18px;
+	font-weight: bold;
+	float: left;
+	margin-left: 53px;
+}
+.section2 .info1 .right_container .text1{
+	float: left;
+	font-size: 12px;
+	width: 180px;
+	margin-top: 8px;
+	margin-left: 15px;
+}
+
+/*
+     FILE ARCHIVED ON 13:58:46 May 05, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:11:41 Nov 18, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/

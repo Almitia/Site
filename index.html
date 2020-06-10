@@ -1,0 +1,343 @@
+
+
+<html>
+
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+        <meta charset="utf-8" />
+        <title>Wrath of Darkness - 2D RPG</title>    
+    <link href="css/toyheroes.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121881171-1"></script>
+
+
+<style>
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #753306;
+  border:1px solid #404040;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  top:20px;
+  left:0px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.arrow-down {
+    width: 0px;
+    height: 0px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #e8e8e8;
+    margin-left:5px;
+}
+</style>
+</style>
+
+</head>
+
+<body>
+    <div class="layout_wrapper">
+        <div class="home_header_wrapper">
+            <div class="header_top_nav">
+                    <div class="nav_top_container">
+
+                </div>
+            </div>
+            <div class="header_bottom">
+                <div class="home_header_middle">
+                    <a href="index.html">
+                        <div class="bb_logo">
+                        </div>
+                    </a>
+                </div>
+                <div class="nav">
+                    <div class="nav_container">
+                        <div class="ddsmoothmenu" id="smoothmenu1">
+                            <ul>
+                                <li>
+                                    <div class="nav_divider">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="btn_nav_home_en">
+                                    <a href="index.html" class=""><span class="btn_nav_hide">Home</span></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="nav_divider">
+                                    </div>
+                                </li>
+                                <li style="margin-right:20px">
+                                    <div class="btn_nav_download_en">
+                                        <a href="gameplay/WebMain.swf" class=""><span class="btn_nav_hide">Download</span></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="nav_divider">
+                                    </div>
+                                </li>                            
+                                    <div class="nav_divider">
+                                    </div>
+                                </li>
+                                <li style="margin-right:20px">
+                                    <div class="btn_nav_media_en">
+                                        <a href="https://discord.gg/82Zarnh" class=""><span class="btn_nav_hide">Discord</span></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="nav_divider">
+                                    </div>
+                                </li>            
+                                </li>
+                                <li style="margin-right:20px">
+                                    <div class="btn_nav_deposit_en">
+                                        <a href="https://discord.com/invite/82Zarnh" class=""><span class="btn_nav_hide">Charge RT</span></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_content_wrapper">
+
+<link href="css/toyheroes_index.css" rel="stylesheet" type="text/css">
+
+<div class="top_wrapper">
+    <div class="top">
+        <div class="left">
+        </div>
+        <div class="middle">
+            <div class="col1">
+                <a href="gameplay.html">
+                    <div class="btn_register">
+                    </div>
+                </a>
+                <a href="gameplay/WebMain.swf">
+                    <div class="btn_download">
+                    </div>
+                </a>
+            </div>
+            <div class="col2">
+                <iframe src="banner.html" width="740" height="252" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+            </div>
+        </div>
+        <div class="right">
+        </div>
+    </div>
+    <div class="bottom">
+    </div>
+</div>
+<div class="bottom_wrapper" style="background-color: #753306; height:270px;">
+    <div class="left_container" style="width:935px;">
+        <div class="content1_info_container">
+		
+            
+<script>
+    function isIE () {
+    var myNav = navigator.userAgent.toLowerCase();
+    return (myNav.indexOf('msie') != -1) ? parseInt(myNav.split('msie')[1]) : false;
+    }
+
+    function show_news_tab(id)
+    {
+        for (i = 0; i < 5; i++)
+        {
+            document.getElementById("news_group_" + i).style.display = "none";
+
+            if (!isIE())
+            {
+                document.getElementsByClassName("btn_news_tabs")[i].getElementsByClassName("btn_news_tabs_left")[0].style.backgroundPosition = null;
+                document.getElementsByClassName("btn_news_tabs")[i].getElementsByClassName("btn_news_tabs_middle")[0].style.backgroundPosition = null;
+                document.getElementsByClassName("btn_news_tabs")[i].getElementsByClassName("btn_news_tabs_right")[0].style.backgroundPosition = null;
+            }
+        }
+
+        document.getElementById("news_group_" + id).style.display = "block";
+
+        if (!isIE())
+        {
+            document.getElementsByClassName("btn_news_tabs")[id].getElementsByClassName("btn_news_tabs_left")[0].style.backgroundPosition = "bottom right";
+            document.getElementsByClassName("btn_news_tabs")[id].getElementsByClassName("btn_news_tabs_middle")[0].style.backgroundPosition = "bottom right";
+            document.getElementsByClassName("btn_news_tabs")[id].getElementsByClassName("btn_news_tabs_right")[0].style.backgroundPosition = "bottom right";
+        }
+    }
+</script>
+
+<link href="css/toyheroes_news.css" rel="stylesheet" type="text/css">
+
+<div style=" width:500px; float:left;">
+             <div class="news_tabs">
+    <div style="margin-left: 0px;">
+        <a class="btn_news_tabs" onclick="show_news_tab(0);"><span class="btn_news_tabs_left"></span><span class="btn_news_tabs_middle">
+            <div class="info">
+                All</div>
+        </span><span class="btn_news_tabs_right"></span></a>
+    </div>
+    <div class="news_tabs_spacer1">
+    </div>
+        <div>
+            <a class="btn_news_tabs" onclick="show_news_tab(1);"><span class="btn_news_tabs_left"></span><span class="btn_news_tabs_middle">
+                <div class="legend_icon">
+                    <img src="img/icon_news_events_en-ge-tr.png" width="18" height="15"></div>
+                <div class="info">
+                    Events</div>
+            </span><span class="btn_news_tabs_right"></span></a>
+        </div>
+        <div class="news_tabs_spacer1">
+        </div>
+        <div>
+            <a class="btn_news_tabs" onclick="show_news_tab(2);"><span class="btn_news_tabs_left"></span><span class="btn_news_tabs_middle">
+                <div class="legend_icon">
+                    <img src="img/icon_news_announcement_en-de.png" width="18" height="15"></div>
+                <div class="info">
+                    Announcements</div>
+            </span><span class="btn_news_tabs_right"></span></a>
+        </div>
+        <div class="news_tabs_spacer1">
+        </div>
+        <div>
+            <a class="btn_news_tabs" onclick="show_news_tab(3);"><span class="btn_news_tabs_left"></span><span class="btn_news_tabs_middle">
+                <div class="legend_icon">
+                    <img src="img/icon_news_promotion_en-de-tr.png" width="18" height="15"></div>
+                <div class="info">
+                    Promotions</div>
+            </span><span class="btn_news_tabs_right"></span></a>
+        </div>
+        <div class="news_tabs_spacer1">
+        </div>
+        <div>
+            <a class="btn_news_tabs" onclick="show_news_tab(4);"><span class="btn_news_tabs_left"></span><span class="btn_news_tabs_middle">
+                <div class="legend_icon">
+                    <img src="img/icon_news_update_en-de.png" width="18" height="15"></div>
+                <div class="info">
+                    Updates</div>
+            </span><span class="btn_news_tabs_right"></span></a>
+        </div>
+        <div class="news_tabs_spacer1">
+        </div>
+    <div class="more_news">
+        <a href="announcementone.html">More News +</a></div>
+</div>
+
+                <div class="news_headline_container" style="margin-top:0px;height:175px;">
+                
+<div id="news_group_0">
+            
+             <div class="news_headline" onclick="location.href='announcementone.html';">
+            <div class="cl1">
+                    <img width="15" height="15" src="img/icon_news_announcement_en-de.png">
+            </div>
+            <div class="cl2">
+                <a href="announcement6e6a.html?id=46330">Fresh Welcome!</a>
+            </div>
+            <div class="cl3">&nbsp;
+            </div>
+            <span class="cl5" style="width:0px;">
+                06/09/2020            </span>
+        </div>
+    </div>
+<div id="news_group_1" style="display:none;">
+<!--<div class="news_headline" onclick="location.href='announcementacbf.html?id=46343';">
+            <div class="cl1">
+                                    <img width="15" height="15" src="img/icon_news_events_en-ge-tr.png">
+                            </div>
+            <div class="cl2">
+                <a href="announcementacbf.html?id=46343">Beta Event</a>
+            </div>
+            <div class="cl3">&nbsp;
+            </div>
+            <span class="cl5" style="width:0px;">
+                06/01/2020            </span>
+        </div>!-->
+		</div>
+<div id="news_group_2" style="display:none;">
+             <div class="news_headline" onclick="location.href='announcementone.html';">
+            <div class="cl1">
+                    <img width="15" height="15" src="img/icon_news_announcement_en-de.png">
+            </div>
+            <div class="cl2">
+                <a href="announcement6e6a.html?id=46330">Fresh Welcome!</a>
+            </div>
+            <div class="cl3">&nbsp;
+            </div>
+            <span class="cl5" style="width:0px;">
+                06/09/2020            </span>
+        </div>
+    </div>
+<div id="news_group_3" style="display:none;">
+                <!--<div class="news_headline" onclick="location.href='announcementb3e1.html?id=46320';">
+                <div class="cl1">
+                    <img width="15" height="15" src="img/icon_news_promotion_en-de-tr.png">
+                </div>
+                <div class="cl2">
+                    <a href="announcementb3e1.html?id=46320">Sales Event</a>
+                </div>
+                <div class="cl3">&nbsp;
+                </div>
+                <span class="cl5" style="width:0px;">
+                    06/23/2020                </span>
+            </div>!-->                 
+        </div>
+<div id="news_group_4" style="display:none;">               
+                   <!-- <div class="news_headline" onclick="location.href='announcement23df.html?id=46326';">
+                <div class="cl1">
+                    <img width="15" height="15" src="img/icon_news_update_en-de.png">
+                </div>
+                <div class="cl2">
+                    <a href="announcement23df.html?id=46326">New Room Settings & Valentines Items</a>
+                </div>
+                <div class="cl3">&nbsp;
+                </div>
+                <span class="cl5" style="width:0px;">
+                    02/12/2020                </span>
+            </div>!-->
+        </div>
+
+</div>
+</div>            <div class="content2_info_container" style="margin-left:85px;">
+                <div class="info2_container">
+                    <div class="top">
+                        <div class="middle">
+                            <div class="title_text" style="margin-left:2px;">
+                                Video
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <div class="container">
+                            <div style="display: table;">
+                                <a href="https://www.youtube.com/watch?v=JXKXf0m2nTA" target="_blank"><img src="img/video_preview.jpg" style="width:334px;height:202px;"></img></a>
+                            </div>
+                        </div>
+  
+</div>
+</div>
+</body>
+</html>

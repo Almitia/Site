@@ -1,0 +1,1091 @@
+
+<html>
+
+<head>
+        <meta charset="utf-8" />
+        <title>ToyHeroes - Online Toy Shooter</title>
+        <meta name="keywords" content="toyheroes, toy, heroes, toys,free, fun, online, play, video, game, gamer, download, computer, pc, shooter, shooting, fps, tps, mmo, mmorpg, rpg, action, 3d, team, toy, war, battle, soldier, figure, stikfas, doll, story, multiplayer, single, player, clan, e-sports, global, world, gun, melee, shotgun, rifle, sniper, gatling, bazooka, grenade, death, match, deathmatch, competitive, competition, casual, core, social, smash, item, battery, shield, enamel, ammo, respawn, frag, headshot, customize, weapons, parts, chip, naomi, knox, pandora, have, reloaded, wakui, akira, brawl, buster, rock, hippo, trailer, update, register"/>
+        <meta name="description" content="Build your action figure and battle players around the world to become a ToyHeroes legend!"/>
+    <link href="css/toyheroes.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
+
+    <script src="js/toyheroes_quicklogin.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121881171-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121881171-1');
+
+  function worldClock(zone, region) {
+    var dst = 0;
+    var time = new Date();
+
+    var gmtMS = time.getTime() + (time.getTimezoneOffset() * 60000);
+    var gmtTime = new Date(gmtMS);
+    var day = gmtTime.getDate();
+    var month = gmtTime.getMonth();
+    var year = gmtTime.getYear();
+    if (year < 1000) {
+        year += 1900;
+    }
+    var monthArray = new Array("January", "February", "March", "April", "May", "June", "July", "August",
+				"September", "October", "November", "December");
+    var monthDays = new Array("31", "28", "31", "30", "31", "30", "31", "31", "30", "31", "30", "31");
+    if (year % 4 == 0) {
+        monthDays = new Array("31", "29", "31", "30", "31", "30", "31", "31", "30", "31", "30", "31");
+    }
+    if (year % 100 == 0 && year % 400 != 0) {
+        monthDays = new Array("31", "28", "31", "30", "31", "30", "31", "31", "30", "31", "30", "31");
+    }
+
+    var hr = gmtTime.getHours() + zone;
+    var min = gmtTime.getMinutes();
+    var sec = gmtTime.getSeconds();
+
+    if (hr >= 24) {
+        hr = hr - 24;
+        day -= -1;
+    }
+    if (hr < 0) {
+        hr -= -24;
+        day -= 1;
+    }
+    if (hr < 10) {
+        hr = " " + hr;
+    }
+    if (min < 10) {
+        min = "0" + min;
+    }
+    if (sec < 10) {
+        sec = "0" + sec;
+    }
+    if (day <= 0) {
+        if (month == 0) {
+            month = 11;
+            year -= 1;
+        }
+        else {
+            month = month - 1;
+        }
+        day = monthDays[month];
+    }
+    if (day > monthDays[month]) {
+        day = 1;
+        if (month == 11) {
+            month = 0;
+            year -= -1;
+        }
+        else {
+            month -= -1;
+        }
+    }
+    if (region == "NAmerica") {
+        if (DST()) {
+            dst = 1;
+        }
+    }
+    if (dst == 1) {
+        hr -= -1;
+        if (hr >= 24) {
+            hr = hr - 24;
+            day -= -1;
+        }
+        if (hr < 10) {
+            hr = " " + hr;
+        }
+        if (day > monthDays[month]) {
+            day = 1;
+            if (month == 11) {
+                month = 0;
+                year -= -1;
+            }
+            else {
+                month -= -1;
+            }
+        }
+        var apm = " AM";
+        if (hr >= 12) {
+            if (hr > 12) {
+                hr = hr - 12;
+            }
+            apm = " PM";
+        }
+        return hr + ":" + min + ":" + sec + apm + " (EDT)";
+    }
+    else {
+        var apm = " AM";
+        if (hr >= 12) {
+            if (hr > 12) {
+                hr = hr - 12;
+            }
+            apm = " PM";
+        }
+        return hr + ":" + min + ":" + sec + apm + " (CEST)";
+    }
+}
+
+function worldClockZone() {
+
+    var divClock = document.getElementById("clockText");
+    if (divClock) {
+        divClock.innerHTML = worldClock(2, "Europe");
+        setTimeout("worldClockZone()", 1000);
+    }
+}
+
+function open_signoff_dropdown() {
+        if (document.getElementById('signoff-dropdown').style.display == "block")
+            document.getElementById('signoff-dropdown').style.display = 'none';
+        else
+            document.getElementById('signoff-dropdown').style.display = "block";
+    }
+</script>
+
+<style>
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #272727;
+  border:1px solid #404040;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  top:20px;
+  left:0px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.arrow-down {
+    width: 0px;
+    height: 0px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #e8e8e8;
+    margin-left:5px;
+}
+</style>
+</style>
+
+</head>
+
+<body>
+    <div class="layout_wrapper">
+        <div class="home_header_wrapper">
+            <div class="header_top_nav">
+                <div class="nav_top_wrapper">
+                    <div class="nav_top_container">
+                        <div class="player_info">
+                            <div class="left side">
+                            </div>
+                            <div class="middle" id="mainLogin" style="position:relative;">
+                                                            <form id="mainLoginForm" action="" method="post">
+                                    <div class="ajaxLoadingMaskQuick" style="width: 100%; height: 100%; z-index: 1000; position: absolute; top: 0px; left: 0px; background-image: url(img/spacer.gif); background-repeat: repeat; display: none;">
+                                        <img alt="" class="ajaxLoading" style="margin-left: 197px; margin-top: 27px; position: absolute; height:18px; width:18px;" src="img/ajaxLoading2.gif">
+                                    </div>
+
+                                    <div style="position:relative; width:220px;">
+                                        <div class="login_info1">
+                                            <div class="icon_rh"></div>
+                                            <div style="margin-bottom: 2px;float: left; ">
+                                                <input onkeypress="if (event.keyCode == 13) onButtonQuickLoginClick();" name="userName" type="text" value="Login ID" onblur="if (this.value == '') {this.value = 'Login ID';}" onfocus="if (this.value == 'Login ID') {this.value = '';}" class="text_box" maxlength="16" style="color: rgb(204, 204, 204);"></div>
+                                            <div class="password" style="float: left; ">
+                                                <input id="fakepw" name="fakedPasswordInput" type="text" value="Password" onfocus="this.parentNode.style.display='none'; document.getElementById('realpw').parentNode.style.display='block'; document.getElementById('realpw').focus();" class="text_box" style="color: rgb(204, 204, 204);"></div>
+                                            <div class="password" style="display: none;float: left;">
+                                                <input onkeypress="if (event.keyCode == 13) onButtonQuickLoginClick();" id="realpw" name="password" type="password" value="" class="text_box" maxlength="32" style="color: rgb(204, 204, 204);" onblur="if (this.value == '') { this.parentNode.style.display = 'none'; document.getElementById('fakepw').parentNode.style.display='block'; }"></div>
+                                            <div id="wrong_password_board" class="wrong_password wrong_passwordid ErrorMsg" style="display: none;">
+                                                <div class="topleft"></div>
+                                                <div id="msgLogin" class="topmiddle">Invalid Login ID and/or Password.</div>
+                                                <div class="topright"></div>
+                                            </div>
+                                        </div>
+                                        <div class="login_info2">
+                                                <div class="row1">
+                                                        <a href="./reset" style="font-size:11px;margin-left:2px;" tabIndex="1">Need help?</a>
+                                                    </div>
+                                            <div class="row1 " style=" width:85px;">
+                                                <a onclick="onButtonQuickLoginClick();" style="margin-right: 8px;" class="login2 formSubmitBtn" tabindex="0"><span class="left"></span>
+                                                    <span class="middle">Login</span><span class="right"></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                                                            </div>
+                            <div class="right side">
+                            </div>
+                        </div>
+                        <div style="display:inline-block;float:right;position:relative;top:3px;margin-left:10px;cursor:not-allowed"><img src="/img/language.png"/></div>
+                        <div style="display:inline-block;float:right;position:relative;top:7px;"><img src="/img/clock1.png"/><span id="clockText" style="width: 105px;font-size: 11px;font-family: Arial, Helvetica, sans-serif;color:#999;position:relative;top:-6px;margin-left:5px;">123</span></div>
+                                            </div>
+                </div>
+            </div>
+            <div class="header_bottom">
+                <div class="home_header_middle">
+                    <a href="./">
+                        <div class="bb_logo">
+                        </div>
+                    </a>
+                </div>
+                <div class="nav">
+                    <div class="nav_container">
+                        <div class="ddsmoothmenu" id="smoothmenu1">
+                            <ul>
+                                <li>
+                                    <div class="nav_divider">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="btn_nav_home_en">
+                                    <a href="./" class=""><span class="btn_nav_hide">Home</span></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="nav_divider">
+                                    </div>
+                                </li>
+                                <li style="margin-right:20px">
+                                    <div class="btn_nav_download_en">
+                                        <a href="./download" class=""><span class="btn_nav_hide">Download</span></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="nav_divider">
+                                    </div>
+                                </li>
+                                <li style="margin-right:20px">
+                                    <div class="btn_nav_clubhouse_en">
+                                        <a href="./club?player=" class=""><span class="btn_nav_hide">Club House</span></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="nav_divider">
+                                    </div>
+                                </li>
+                                <li style="margin-right:20px">
+                                    <div class="btn_nav_guide_en">
+                                        <a href="/guide" class=""><span class="btn_nav_hide">Guide</span></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="nav_divider">
+                                    </div>
+                                </li>
+                                <li style="margin-right:20px">
+                                    <div class="btn_nav_media_en">
+                                        <a href="/media" class=""><span class="btn_nav_hide">Media</span></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="nav_divider">
+                                    </div>
+                                </li>
+                                <li style="margin-right:20px">
+                                    <div class="btn_nav_support_en">
+                                        <a href="/support" class=""><span class="btn_nav_hide">Support</span></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="nav_divider">
+                                    </div>
+                                </li>
+                                <li style="margin-right:20px">
+                                    <div class="btn_nav_deposit_en">
+                                        <a href="./purchase" class=""><span class="btn_nav_hide">Charge RT</span></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>worldClockZone();</script>
+        <div class="main_content_wrapper">
+
+<link href="css/toyheroes_index.css" rel="stylesheet" type="text/css">
+
+<div class="top_wrapper">
+    <div class="top">
+        <div class="left">
+        </div>
+        <div class="middle">
+            <div class="col1">
+                <a href="./register">
+                    <div class="btn_register">
+                    </div>
+                </a>
+                <a href="./download">
+                    <div class="btn_download">
+                    </div>
+                </a>
+                <a href="./register">
+                    <div style="margin: 10px  10px 10px  20px; width: 160px; height: 100px; cursor: pointer;">
+                    </div>
+                </a>
+            </div>
+            <div class="col2">
+                <iframe src="banner.html" width="740" height="252" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+            </div>
+        </div>
+        <div class="right">
+        </div>
+    </div>
+    <div class="bottom">
+    </div>
+</div>
+<div class="bottom_wrapper" style="height:550px;">
+    <div class="left_container" style="width:935px;">
+        <div class="content1_info_container">
+            
+<script>
+    function isIE () {
+    var myNav = navigator.userAgent.toLowerCase();
+    return (myNav.indexOf('msie') != -1) ? parseInt(myNav.split('msie')[1]) : false;
+    }
+
+    function show_news_tab(id)
+    {
+        for (i = 0; i < 5; i++)
+        {
+            document.getElementById("news_group_" + i).style.display = "none";
+
+            if (!isIE())
+            {
+                document.getElementsByClassName("btn_news_tabs")[i].getElementsByClassName("btn_news_tabs_left")[0].style.backgroundPosition = null;
+                document.getElementsByClassName("btn_news_tabs")[i].getElementsByClassName("btn_news_tabs_middle")[0].style.backgroundPosition = null;
+                document.getElementsByClassName("btn_news_tabs")[i].getElementsByClassName("btn_news_tabs_right")[0].style.backgroundPosition = null;
+            }
+        }
+
+        document.getElementById("news_group_" + id).style.display = "block";
+
+        if (!isIE())
+        {
+            document.getElementsByClassName("btn_news_tabs")[id].getElementsByClassName("btn_news_tabs_left")[0].style.backgroundPosition = "bottom right";
+            document.getElementsByClassName("btn_news_tabs")[id].getElementsByClassName("btn_news_tabs_middle")[0].style.backgroundPosition = "bottom right";
+            document.getElementsByClassName("btn_news_tabs")[id].getElementsByClassName("btn_news_tabs_right")[0].style.backgroundPosition = "bottom right";
+        }
+    }
+</script>
+
+<link href="css/toyheroes_news.css" rel="stylesheet" type="text/css">
+
+<div style=" width:500px; float:left;">
+             <div class="news_tabs">
+    <div style="margin-left: 0px;">
+        <a class="btn_news_tabs" onclick="show_news_tab(0);"><span class="btn_news_tabs_left"></span><span class="btn_news_tabs_middle">
+            <div class="info">
+                All</div>
+        </span><span class="btn_news_tabs_right"></span></a>
+    </div>
+    <div class="news_tabs_spacer1">
+    </div>
+        <div>
+            <a class="btn_news_tabs" onclick="show_news_tab(1);"><span class="btn_news_tabs_left"></span><span class="btn_news_tabs_middle">
+                <div class="legend_icon">
+                    <img src="img/icon_news_events_en-ge-tr.png" width="18" height="15"></div>
+                <div class="info">
+                    Events</div>
+            </span><span class="btn_news_tabs_right"></span></a>
+        </div>
+        <div class="news_tabs_spacer1">
+        </div>
+        <div>
+            <a class="btn_news_tabs" onclick="show_news_tab(2);"><span class="btn_news_tabs_left"></span><span class="btn_news_tabs_middle">
+                <div class="legend_icon">
+                    <img src="img/icon_news_announcement_en-de.png" width="18" height="15"></div>
+                <div class="info">
+                    Announcements</div>
+            </span><span class="btn_news_tabs_right"></span></a>
+        </div>
+        <div class="news_tabs_spacer1">
+        </div>
+        <div>
+            <a class="btn_news_tabs" onclick="show_news_tab(3);"><span class="btn_news_tabs_left"></span><span class="btn_news_tabs_middle">
+                <div class="legend_icon">
+                    <img src="img/icon_news_promotion_en-de-tr.png" width="18" height="15"></div>
+                <div class="info">
+                    Promotions</div>
+            </span><span class="btn_news_tabs_right"></span></a>
+        </div>
+        <div class="news_tabs_spacer1">
+        </div>
+        <div>
+            <a class="btn_news_tabs" onclick="show_news_tab(4);"><span class="btn_news_tabs_left"></span><span class="btn_news_tabs_middle">
+                <div class="legend_icon">
+                    <img src="img/icon_news_update_en-de.png" width="18" height="15"></div>
+                <div class="info">
+                    Updates</div>
+            </span><span class="btn_news_tabs_right"></span></a>
+        </div>
+        <div class="news_tabs_spacer1">
+        </div>
+    <div class="more_news">
+        <a href="https://toyheroes.net/announcement?id=46323">More News +</a></div>
+</div>
+
+                <div class="news_headline_container" style="margin-top:0px;height:175px;">
+                
+<div id="news_group_0">
+            <div class="news_headline" onclick="location.href='https://toyheroes.net/announcement?id=46343';">
+            <div class="cl1">
+                                    <img width="15" height="15" src="img/icon_news_events_en-ge-tr.png">
+                            </div>
+            <div class="cl2">
+                <a href="https://toyheroes.net/announcement?id=46343">Spot The Difference</a>
+            </div>
+            <div class="cl3">&nbsp;
+            </div>
+            <span class="cl5" style="width:0px;">
+                06/01/2020            </span>
+        </div>
+            <div class="news_headline" onclick="location.href='https://toyheroes.net/announcement?id=46342';">
+            <div class="cl1">
+                                    <img width="15" height="15" src="img/icon_news_update_en-de.png">
+                            </div>
+            <div class="cl2">
+                <a href="https://toyheroes.net/announcement?id=46342">New ACMI Set Collections</a>
+            </div>
+            <div class="cl3">&nbsp;
+            </div>
+            <span class="cl5" style="width:0px;">
+                05/29/2020            </span>
+        </div>
+            <div class="news_headline" onclick="location.href='https://toyheroes.net/announcement?id=46341';">
+            <div class="cl1">
+                                    <img width="15" height="15" src="img/icon_news_announcement_en-de.png">
+                            </div>
+            <div class="cl2">
+                <a href="https://toyheroes.net/announcement?id=46341">New Weekly Ranking System</a>
+            </div>
+            <div class="cl3">&nbsp;
+            </div>
+            <span class="cl5" style="width:0px;">
+                05/21/2020            </span>
+        </div>
+            <div class="news_headline" onclick="location.href='https://toyheroes.net/announcement?id=46340';">
+            <div class="cl1">
+                                    <img width="15" height="15" src="img/icon_news_update_en-de.png">
+                            </div>
+            <div class="cl2">
+                <a href="https://toyheroes.net/announcement?id=46340">Capsule Machine: Tokiomi, Irisviel & more!</a>
+            </div>
+            <div class="cl3">&nbsp;
+            </div>
+            <span class="cl5" style="width:0px;">
+                05/15/2020            </span>
+        </div>
+            <div class="news_headline" onclick="location.href='https://toyheroes.net/announcement?id=46339';">
+            <div class="cl1">
+                                    <img width="15" height="15" src="img/icon_news_announcement_en-de.png">
+                            </div>
+            <div class="cl2">
+                <a href="https://toyheroes.net/announcement?id=46339">New Bonus Shop Clothing</a>
+            </div>
+            <div class="cl3">&nbsp;
+            </div>
+            <span class="cl5" style="width:0px;">
+                05/09/2020            </span>
+        </div>
+            <div class="news_headline" onclick="location.href='https://toyheroes.net/announcement?id=46338';">
+            <div class="cl1">
+                                    <img width="15" height="15" src="img/icon_news_events_en-ge-tr.png">
+                            </div>
+            <div class="cl2">
+                <a href="https://toyheroes.net/announcement?id=46338">Fan Art Event - Season 3</a>
+            </div>
+            <div class="cl3">&nbsp;
+            </div>
+            <span class="cl5" style="width:0px;">
+                05/01/2020            </span>
+        </div>
+            <div class="news_headline" onclick="location.href='https://toyheroes.net/announcement?id=46337';">
+            <div class="cl1">
+                                    <img width="15" height="15" src="img/icon_news_update_en-de.png">
+                            </div>
+            <div class="cl2">
+                <a href="https://toyheroes.net/announcement?id=46337">Madoka Magica & Super Item Match</a>
+            </div>
+            <div class="cl3">&nbsp;
+            </div>
+            <span class="cl5" style="width:0px;">
+                04/28/2020            </span>
+        </div>
+    </div>
+
+<div id="news_group_1" style="display:none;">
+            <div class="news_headline" onclick="location.href='https://toyheroes.net/announcement?id=46343';">
+            <div class="cl1">
+                <img width="15" height="15" src="img/icon_news_events_en-ge-tr.png">
+            </div>
+            <div class="cl2">
+                <a href="https://toyheroes.net/announcement?id=46343">Spot The Difference</a>
+            </div>
+            <div class="cl3">&nbsp;
+            </div>
+            <span class="cl5" style="width:0px;">
+                06/01/2020            </span>
+        </div>
+            <div class="news_headline" onclick="location.href='https://toyheroes.net/announcement?id=46338';">
+            <div class="cl1">
+                <img width="15" height="15" src="img/icon_news_events_en-ge-tr.png">
+            </div>
+            <div class="cl2">
+                <a href="https://toyheroes.net/announcement?id=46338">Fan Art Event - Season 3</a>
+            </div>
+            <div class="cl3">&nbsp;
+            </div>
+            <span class="cl5" style="width:0px;">
+                05/01/2020            </span>
+        </div>
+            <div class="news_headline" onclick="location.href='https://toyheroes.net/announcement?id=46336';">
+            <div class="cl1">
+                <img width="15" height="15" src="img/icon_news_events_en-ge-tr.png">
+            </div>
+            <div class="cl2">
+                <a href="https://toyheroes.net/announcement?id=46336">Search & Provide The Hidden Crops</a>
+            </div>
+            <div class="cl3">&nbsp;
+            </div>
+            <span class="cl5" style="width:0px;">
+                04/17/2020            </span>
+        </div>
+            <div class="news_headline" onclick="location.href='https://toyheroes.net/announcement?id=46335';">
+            <div class="cl1">
+                <img width="15" height="15" src="img/icon_news_events_en-ge-tr.png">
+            </div>
+            <div class="cl2">
+                <a href="https://toyheroes.net/announcement?id=46335">Easter EXP and MP Event</a>
+            </div>
+            <div class="cl3">&nbsp;
+            </div>
+            <span class="cl5" style="width:0px;">
+                04/12/2020            </span>
+        </div>
+            <div class="news_headline" onclick="location.href='https://toyheroes.net/announcement?id=46334';">
+            <div class="cl1">
+                <img width="15" height="15" src="img/icon_news_events_en-ge-tr.png">
+            </div>
+            <div class="cl2">
+                <a href="https://toyheroes.net/announcement?id=46334">Easter Egg Hiding Event</a>
+            </div>
+            <div class="cl3">&nbsp;
+            </div>
+            <span class="cl5" style="width:0px;">
+                04/10/2020            </span>
+        </div>
+            <div class="news_headline" onclick="location.href='https://toyheroes.net/announcement?id=46332';">
+            <div class="cl1">
+                <img width="15" height="15" src="img/icon_news_events_en-ge-tr.png">
+            </div>
+            <div class="cl2">
+                <a href="https://toyheroes.net/announcement?id=46332">Zombie Hunters</a>
+            </div>
+            <div class="cl3">&nbsp;
+            </div>
+            <span class="cl5" style="width:0px;">
+                03/26/2020            </span>
+        </div>
+            <div class="news_headline" onclick="location.href='https://toyheroes.net/announcement?id=46330';">
+            <div class="cl1">
+                <img width="15" height="15" src="img/icon_news_events_en-ge-tr.png">
+            </div>
+            <div class="cl2">
+                <a href="https://toyheroes.net/announcement?id=46330">Comic Contest</a>
+            </div>
+            <div class="cl3">&nbsp;
+            </div>
+            <span class="cl5" style="width:0px;">
+                03/03/2020            </span>
+        </div>
+    </div>
+<div id="news_group_2" style="display:none;">
+                <div class="news_headline" onclick="location.href='https://toyheroes.net/announcement?id=46341';">
+                <div class="cl1">
+                    <img width="15" height="15" src="img/icon_news_announcement_en-de.png">
+                </div>
+                <div class="cl2">
+                    <a href="https://toyheroes.net/announcement?id=46341">New Weekly Ranking System</a>
+                </div>
+                <div class="cl3">&nbsp;
+                </div>
+                <span class="cl5" style="width:0px;">
+                    05/21/2020                </span>
+            </div>
+                    <div class="news_headline" onclick="location.href='https://toyheroes.net/announcement?id=46339';">
+                <div class="cl1">
+                    <img width="15" height="15" src="img/icon_news_announcement_en-de.png">
+                </div>
+                <div class="cl2">
+                    <a href="https://toyheroes.net/announcement?id=46339">New Bonus Shop Clothing</a>
+                </div>
+                <div class="cl3">&nbsp;
+                </div>
+                <span class="cl5" style="width:0px;">
+                    05/09/2020                </span>
+            </div>
+                    <div class="news_headline" onclick="location.href='https://toyheroes.net/announcement?id=46318';">
+                <div class="cl1">
+                    <img width="15" height="15" src="img/icon_news_announcement_en-de.png">
+                </div>
+                <div class="cl2">
+                    <a href="https://toyheroes.net/announcement?id=46318">New Achievements and Bonus Shop Items</a>
+                </div>
+                <div class="cl3">&nbsp;
+                </div>
+                <span class="cl5" style="width:0px;">
+                    12/19/2019                </span>
+            </div>
+                    <div class="news_headline" onclick="location.href='https://toyheroes.net/announcement?id=46302';">
+                <div class="cl1">
+                    <img width="15" height="15" src="img/icon_news_announcement_en-de.png">
+                </div>
+                <div class="cl2">
+                    <a href="https://toyheroes.net/announcement?id=46302">Clan and Bonus Shop Changes</a>
+                </div>
+                <div class="cl3">&nbsp;
+                </div>
+                <span class="cl5" style="width:0px;">
+                    12/17/2019                </span>
+            </div>
+                    <div class="news_headline" onclick="location.href='https://toyheroes.net/announcement?id=46313';">
+                <div class="cl1">
+                    <img width="15" height="15" src="img/icon_news_announcement_en-de.png">
+                </div>
+                <div class="cl2">
+                    <a href="https://toyheroes.net/announcement?id=46313">New Achievement System</a>
+                </div>
+                <div class="cl3">&nbsp;
+                </div>
+                <span class="cl5" style="width:0px;">
+                    10/09/2019                </span>
+            </div>
+                    <div class="news_headline" onclick="location.href='https://www.toyheroes.net/forum/index.php?threads/information-about-the-recent-website-maintenances.7660/';">
+                <div class="cl1">
+                    <img width="15" height="15" src="img/icon_news_announcement_en-de.png">
+                </div>
+                <div class="cl2">
+                    <a href="https://www.toyheroes.net/forum/index.php?threads/information-about-the-recent-website-maintenances.7660/">Information about the recent website maintenances</a>
+                </div>
+                <div class="cl3">&nbsp;
+                </div>
+                <span class="cl5" style="width:0px;">
+                    08/13/2019                </span>
+            </div>
+                    <div class="news_headline" onclick="location.href='https://www.toyheroes.net/forum/index.php?threads/recruitment-system-exclusive-dioramas.7475/';">
+                <div class="cl1">
+                    <img width="15" height="15" src="img/icon_news_announcement_en-de.png">
+                </div>
+                <div class="cl2">
+                    <a href="https://www.toyheroes.net/forum/index.php?threads/recruitment-system-exclusive-dioramas.7475/">Recruitment System & Exclusive Dioramas</a>
+                </div>
+                <div class="cl3">&nbsp;
+                </div>
+                <span class="cl5" style="width:0px;">
+                    06/27/2019                </span>
+            </div>
+        </div>
+<div id="news_group_3" style="display:none;">
+                <div class="news_headline" onclick="location.href='https://toyheroes.net/announcement?id=46320';">
+                <div class="cl1">
+                    <img width="15" height="15" src="img/icon_news_promotion_en-de-tr.png">
+                </div>
+                <div class="cl2">
+                    <a href="https://toyheroes.net/announcement?id=46320">Christmas Holiday Sales</a>
+                </div>
+                <div class="cl3">&nbsp;
+                </div>
+                <span class="cl5" style="width:0px;">
+                    12/24/2019                </span>
+            </div>
+                    <div class="news_headline" onclick="location.href='https://toyheroes.net/announcement?id=46304';">
+                <div class="cl1">
+                    <img width="15" height="15" src="img/icon_news_promotion_en-de-tr.png">
+                </div>
+                <div class="cl2">
+                    <a href="https://toyheroes.net/announcement?id=46304">Black Friday Sales</a>
+                </div>
+                <div class="cl3">&nbsp;
+                </div>
+                <span class="cl5" style="width:0px;">
+                    11/29/2019                </span>
+            </div>
+        </div>
+<div id="news_group_4" style="display:none;">
+                <div class="news_headline" onclick="location.href='https://toyheroes.net/announcement?id=46342';">
+                <div class="cl1">
+                    <img width="15" height="15" src="img/icon_news_update_en-de.png">
+                </div>
+                <div class="cl2">
+                    <a href="https://toyheroes.net/announcement?id=46342">New ACMI Set Collections</a>
+                </div>
+                <div class="cl3">&nbsp;
+                </div>
+                <span class="cl5" style="width:0px;">
+                    05/29/2020                </span>
+            </div>
+                    <div class="news_headline" onclick="location.href='https://toyheroes.net/announcement?id=46340';">
+                <div class="cl1">
+                    <img width="15" height="15" src="img/icon_news_update_en-de.png">
+                </div>
+                <div class="cl2">
+                    <a href="https://toyheroes.net/announcement?id=46340">Capsule Machine: Tokiomi, Irisviel & more!</a>
+                </div>
+                <div class="cl3">&nbsp;
+                </div>
+                <span class="cl5" style="width:0px;">
+                    05/15/2020                </span>
+            </div>
+                    <div class="news_headline" onclick="location.href='https://toyheroes.net/announcement?id=46337';">
+                <div class="cl1">
+                    <img width="15" height="15" src="img/icon_news_update_en-de.png">
+                </div>
+                <div class="cl2">
+                    <a href="https://toyheroes.net/announcement?id=46337">Madoka Magica & Super Item Match</a>
+                </div>
+                <div class="cl3">&nbsp;
+                </div>
+                <span class="cl5" style="width:0px;">
+                    04/28/2020                </span>
+            </div>
+                    <div class="news_headline" onclick="location.href='https://toyheroes.net/announcement?id=46333';">
+                <div class="cl1">
+                    <img width="15" height="15" src="img/icon_news_update_en-de.png">
+                </div>
+                <div class="cl2">
+                    <a href="https://toyheroes.net/announcement?id=46333">Easter Frenzy</a>
+                </div>
+                <div class="cl3">&nbsp;
+                </div>
+                <span class="cl5" style="width:0px;">
+                    04/07/2020                </span>
+            </div>
+                    <div class="news_headline" onclick="location.href='https://toyheroes.net/announcement?id=46331';">
+                <div class="cl1">
+                    <img width="15" height="15" src="img/icon_news_update_en-de.png">
+                </div>
+                <div class="cl2">
+                    <a href="https://toyheroes.net/announcement?id=46331">Patch Notes 11th March</a>
+                </div>
+                <div class="cl3">&nbsp;
+                </div>
+                <span class="cl5" style="width:0px;">
+                    03/11/2020                </span>
+            </div>
+                    <div class="news_headline" onclick="location.href='https://toyheroes.net/announcement?id=46329';">
+                <div class="cl1">
+                    <img width="15" height="15" src="img/icon_news_update_en-de.png">
+                </div>
+                <div class="cl2">
+                    <a href="https://toyheroes.net/announcement?id=46329">Patch Notes 26th February</a>
+                </div>
+                <div class="cl3">&nbsp;
+                </div>
+                <span class="cl5" style="width:0px;">
+                    02/26/2020                </span>
+            </div>
+                    <div class="news_headline" onclick="location.href='https://toyheroes.net/announcement?id=46326';">
+                <div class="cl1">
+                    <img width="15" height="15" src="img/icon_news_update_en-de.png">
+                </div>
+                <div class="cl2">
+                    <a href="https://toyheroes.net/announcement?id=46326">New Room Settings & Valentines Items</a>
+                </div>
+                <div class="cl3">&nbsp;
+                </div>
+                <span class="cl5" style="width:0px;">
+                    02/12/2020                </span>
+            </div>
+        </div>
+
+</div>
+</div>            <div class="content2_info_container" style="margin-left:85px;">
+                <div class="info2_container">
+                    <div class="top">
+                        <div class="middle">
+                            <div class="title_text" style="margin-left:2px;">
+                                Video
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <div class="container">
+                            <div style="display: table;">
+                                <a href="https://www.youtube.com/watch?v=gjvxogUxBCM" target="_blank"><img src="./img/video_preview.jpg" style="width:334px;height:202px;"></img></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="social2" style="margin-top:16px; float:right; margin-right: -3px;display:inline-block">
+            <div style="height: 13px; width: 355px;">
+                <div class="border1_top_middle" style="width:353px;position: relative;left: 1px;">
+                </div>
+            </div>
+            <script>
+                function on_ranking_player_click()
+                {
+                    document.getElementById("ranking_player").style.display = "block"
+                    document.getElementById("ranking_clan").style.display = "none";
+                    document.getElementById("btn-ranking-clan").classList.remove("selected");
+                    document.getElementById("btn-ranking-player").classList.add("selected");
+                }
+
+                function on_ranking_clan_click()
+                {
+                    document.getElementById("ranking_player").style.display = "none"
+                    document.getElementById("ranking_clan").style.display = "block";
+                    document.getElementById("btn-ranking-clan").classList.add("selected");
+                    document.getElementById("btn-ranking-player").classList.remove("selected");
+                }
+            </script>
+            <div style="height:240px;clear:both;">
+                <div class="border1_middle_left" style="float: left">
+                </div>
+                <div style="background-color: #1d1c1d; float: left; width: 332px; background-color: rgb(29, 28, 29);display: block; height: 100%;">
+                    <div class="mv_legends_tabs" style="width:332px;">
+                        <div class="title">
+                            <a>Season Ranking</a><a style="color: #F90;font-size: 11px;font-family: Arial, Helvetica, sans-serif;font-weight: bold;text-decoration: none;margin-left:90px;" href="/club?player=">View All</a>
+                        </div>
+                        <div id="btn-ranking-clan" class="tabBtn selected hasTooltips" style="margin-right: 8px; position: relative;">
+                            <div class="tabBtn_left">
+                            </div>
+                            <div class="tabBtn_middle">
+                                <div class="icon_mv_legends_clan" onclick="on_ranking_clan_click()" title="Top 5 Clans">
+                                </div>
+                            </div>
+                            <div class="tabBtn_right">
+                            </div>
+                            <div class="tooltips classic" style="left: -40px;">
+                                Top Clans
+                            </div>
+                        </div>
+                        <div id="btn-ranking-player" style="margin-right: 3px; position: relative;" class="tabBtn hasTooltips">
+                            <div class="tabBtn_left">
+                            </div>
+                            <div class="tabBtn_middle">
+                                <div class="icon_mv_legends_player" onclick="on_ranking_player_click();" title="Top 5 Players"> 
+                                </div>
+                            </div>
+                            <div class="tabBtn_right">
+                            </div>
+                            <div class="tooltips classic">
+                                Top Players
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                                                <div id="ranking_player" style="display:none;">
+                                                            <div style="margin-bottom:-1px; border-bottom:1px solid #ababab;">
+                                    <img src="img/level/level_87.png" style="height:26px;width:26px;margin-top:5px;margin-left:5px;"></img>
+                                     <a href="/club?player=[ES]Nunu" style="position:relative;bottom:8px;font-size:12px;color: rgb(25, 25, 25);left:2px;text-decoration:none">
+                                        [ES]Nunu                                    </a>
+                                                                        <a href="/club?clan=Regulars"><img src="img/clan/front/210.png" style="height:26px;width:26px;margin-top:5px;margin-right:6px;position:absolute;right:9px;" title="Regulars"></img>
+                                        <img src="img/clan/back/071.png" style="height:26px;width:26px;float:right;margin-top:5px;margin-right:6px;"></img></a>
+                                                                    </div>
+                                                            <div style="margin-bottom:-1px; border-bottom:1px solid #ababab;">
+                                    <img src="img/level/level_86.png" style="height:26px;width:26px;margin-top:5px;margin-left:5px;"></img>
+                                     <a href="/club?player=Skywalker" style="position:relative;bottom:8px;font-size:12px;color: rgb(25, 25, 25);left:2px;text-decoration:none">
+                                        Skywalker                                    </a>
+                                                                        <a href="/club?clan=noRTnoLaifu"><img src="img/clan/front/169.png" style="height:26px;width:26px;margin-top:5px;margin-right:6px;position:absolute;right:9px;" title="noRTnoLaifu"></img>
+                                        <img src="img/clan/back/169.png" style="height:26px;width:26px;float:right;margin-top:5px;margin-right:6px;"></img></a>
+                                                                    </div>
+                                                            <div style="margin-bottom:-1px; border-bottom:1px solid #ababab;">
+                                    <img src="img/level/level_86.png" style="height:26px;width:26px;margin-top:5px;margin-left:5px;"></img>
+                                     <a href="/club?player=Sobyk" style="position:relative;bottom:8px;font-size:12px;color: rgb(25, 25, 25);left:2px;text-decoration:none">
+                                        Sobyk                                    </a>
+                                                                        <a href="/club?clan=Black"><img src="img/clan/front/171.png" style="height:26px;width:26px;margin-top:5px;margin-right:6px;position:absolute;right:9px;" title="Black"></img>
+                                        <img src="img/clan/back/145.png" style="height:26px;width:26px;float:right;margin-top:5px;margin-right:6px;"></img></a>
+                                                                    </div>
+                                                            <div style="margin-bottom:-1px; border-bottom:1px solid #ababab;">
+                                    <img src="img/level/level_85.png" style="height:26px;width:26px;margin-top:5px;margin-left:5px;"></img>
+                                     <a href="/club?player=LaosHD" style="position:relative;bottom:8px;font-size:12px;color: rgb(25, 25, 25);left:2px;text-decoration:none">
+                                        LaosHD                                    </a>
+                                                                        <a href="/club?clan=TerrorDeath"><img src="img/clan/front/093.png" style="height:26px;width:26px;margin-top:5px;margin-right:6px;position:absolute;right:9px;" title="TerrorDeath"></img>
+                                        <img src="img/clan/back/059.png" style="height:26px;width:26px;float:right;margin-top:5px;margin-right:6px;"></img></a>
+                                                                    </div>
+                                                            <div style="margin-bottom:-1px; border-bottom:1px solid #ababab;">
+                                    <img src="img/level/level_83.png" style="height:26px;width:26px;margin-top:5px;margin-left:5px;"></img>
+                                     <a href="/club?player=NaNoTecK" style="position:relative;bottom:8px;font-size:12px;color: rgb(25, 25, 25);left:2px;text-decoration:none">
+                                        NaNoTecK                                    </a>
+                                                                    </div>
+                                                            <div style="margin-bottom:-1px; border-bottom:1px solid #ababab;">
+                                    <img src="img/level/level_81.png" style="height:26px;width:26px;margin-top:5px;margin-left:5px;"></img>
+                                     <a href="/club?player=RaikouRam" style="position:relative;bottom:8px;font-size:12px;color: rgb(25, 25, 25);left:2px;text-decoration:none">
+                                        RaikouRam                                    </a>
+                                                                    </div>
+                                                    </div>
+
+                        <div id="ranking_clan">
+                                                            <div style="margin-bottom:-1px;border-bottom:1px solid #ababab;">
+                                <a href="/club?clan=Sweetener"><img src="img/clan/front/153.png" style="height:20px;width:20px;margin-top:5px;margin-left:2px;position:absolute;right:313px;top:309;"></img>
+                                    <img src="img/clan/back/074.png" style="height:20px;width:20px;margin-top:5px;margin-left:8px;"></img></a>
+                                    <a href="/club?clan=Sweetener" style="position:relative;bottom:6px;font-size:12px;color: rgb(25, 25, 25);left:2px;text-decoration:none">
+                                        <div style="width:155px;display:inline-block">
+                                            Sweetener                                        </div>
+                                        <div style="width:70px;display:inline-block;text-align:center">
+                                            <span style="margin-left:2px;position:relative;top:-0px;left:15px;">&#x2605;&#x2605;&#x2605;</span>
+                                        </div>
+                                    </a>
+                                    <img src="img/crown.png" style="float:right;width:20px; height:20px;position:relative;right:6px;top:7px;" title="Win Ratio"></img> <a style="opacity:0.9;float:right;position:relative;top:10px;font-size:12px;color: rgb(25, 25, 25);right: 10px;">55.84%</a>
+                                </div>
+                                                            <div style="margin-bottom:-1px;border-bottom:1px solid #ababab;">
+                                <a href="/club?clan=Cats"><img src="img/clan/front/153.png" style="height:20px;width:20px;margin-top:5px;margin-left:2px;position:absolute;right:313px;"></img>
+                                    <img src="img/clan/back/003.png" style="height:20px;width:20px;margin-top:5px;margin-left:8px;"></img></a>
+                                    <a href="/club?clan=Cats" style="position:relative;bottom:6px;font-size:12px;color: rgb(25, 25, 25);left:2px;text-decoration:none">
+                                        <div style="width:155px;display:inline-block">
+                                            Cats                                        </div>
+                                        <div style="width:70px;display:inline-block;text-align:center">
+                                            <span style="margin-left:2px;position:relative;top:-0px;left:15px;">&#x2605;&#x2605;&#x2605;</span>
+                                        </div>
+                                    </a>
+                                    <img src="img/crown.png" style="float:right;width:20px; height:20px;position:relative;right:6px;top:7px;" title="Win Ratio"></img> <a style="opacity:0.9;float:right;position:relative;top:10px;font-size:12px;color: rgb(25, 25, 25);right: 10px;">56.45%</a>
+                                </div>
+                                                            <div style="margin-bottom:-1px;border-bottom:1px solid #ababab;">
+                                <a href="/club?clan=Eduskunta"><img src="img/clan/front/151.png" style="height:20px;width:20px;margin-top:5px;margin-left:2px;position:absolute;right:313px;"></img>
+                                    <img src="img/clan/back/143.png" style="height:20px;width:20px;margin-top:5px;margin-left:8px;"></img></a>
+                                    <a href="/club?clan=Eduskunta" style="position:relative;bottom:6px;font-size:12px;color: rgb(25, 25, 25);left:2px;text-decoration:none">
+                                        <div style="width:155px;display:inline-block">
+                                            Eduskunta                                        </div>
+                                        <div style="width:70px;display:inline-block;text-align:center">
+                                            <span style="margin-left:2px;position:relative;top:-0px;left:15px;">&#x2605;&#x2605;</span>
+                                        </div>
+                                    </a>
+                                    <img src="img/crown.png" style="float:right;width:20px; height:20px;position:relative;right:6px;top:7px;" title="Win Ratio"></img> <a style="opacity:0.9;float:right;position:relative;top:10px;font-size:12px;color: rgb(25, 25, 25);right: 10px;">38.18%</a>
+                                </div>
+                                                            <div style="margin-bottom:-1px;border-bottom:1px solid #ababab;">
+                                <a href="/club?clan=BloodStained"><img src="img/clan/front/207.png" style="height:20px;width:20px;margin-top:5px;margin-left:2px;position:absolute;right:313px;"></img>
+                                    <img src="img/clan/back/143.png" style="height:20px;width:20px;margin-top:5px;margin-left:8px;"></img></a>
+                                    <a href="/club?clan=BloodStained" style="position:relative;bottom:6px;font-size:12px;color: rgb(25, 25, 25);left:2px;text-decoration:none">
+                                        <div style="width:155px;display:inline-block">
+                                            BloodStained                                        </div>
+                                        <div style="width:70px;display:inline-block;text-align:center">
+                                            <span style="margin-left:2px;position:relative;top:-0px;left:15px;">&#x2605;&#x2605;</span>
+                                        </div>
+                                    </a>
+                                    <img src="img/crown.png" style="float:right;width:20px; height:20px;position:relative;right:6px;top:7px;" title="Win Ratio"></img> <a style="opacity:0.9;float:right;position:relative;top:10px;font-size:12px;color: rgb(25, 25, 25);right: 10px;">63.47%</a>
+                                </div>
+                                                            <div style="margin-bottom:-1px;border-bottom:1px solid #ababab;">
+                                <a href="/club?clan=Trojans"><img src="img/clan/front/218.png" style="height:20px;width:20px;margin-top:5px;margin-left:2px;position:absolute;right:313px;"></img>
+                                    <img src="img/clan/back/003.png" style="height:20px;width:20px;margin-top:5px;margin-left:8px;"></img></a>
+                                    <a href="/club?clan=Trojans" style="position:relative;bottom:6px;font-size:12px;color: rgb(25, 25, 25);left:2px;text-decoration:none">
+                                        <div style="width:155px;display:inline-block">
+                                            Trojans                                        </div>
+                                        <div style="width:70px;display:inline-block;text-align:center">
+                                            <span style="margin-left:2px;position:relative;top:-0px;left:15px;">&#x2605;&#x2605;</span>
+                                        </div>
+                                    </a>
+                                    <img src="img/crown.png" style="float:right;width:20px; height:20px;position:relative;right:6px;top:7px;" title="Win Ratio"></img> <a style="opacity:0.9;float:right;position:relative;top:10px;font-size:12px;color: rgb(25, 25, 25);right: 10px;">50.88%</a>
+                                </div>
+                                                            <div style="margin-bottom:-1px;border-bottom:1px solid #ababab;">
+                                <a href="/club?clan=Trust"><img src="img/clan/front/206.png" style="height:20px;width:20px;margin-top:5px;margin-left:2px;position:absolute;right:313px;"></img>
+                                    <img src="img/clan/back/145.png" style="height:20px;width:20px;margin-top:5px;margin-left:8px;"></img></a>
+                                    <a href="/club?clan=Trust" style="position:relative;bottom:6px;font-size:12px;color: rgb(25, 25, 25);left:2px;text-decoration:none">
+                                        <div style="width:155px;display:inline-block">
+                                            Trust                                        </div>
+                                        <div style="width:70px;display:inline-block;text-align:center">
+                                            <span style="margin-left:2px;position:relative;top:-0px;left:15px;">&#x2605;&#x2605;</span>
+                                        </div>
+                                    </a>
+                                    <img src="img/crown.png" style="float:right;width:20px; height:20px;position:relative;right:6px;top:7px;" title="Win Ratio"></img> <a style="opacity:0.9;float:right;position:relative;top:10px;font-size:12px;color: rgb(25, 25, 25);right: 10px;">52.72%</a>
+                                </div>
+                                                            <div style="margin-bottom:-1px;border-bottom:1px solid #ababab;">
+                                <a href="/club?clan=Respect"><img src="img/clan/front/206.png" style="height:20px;width:20px;margin-top:5px;margin-left:2px;position:absolute;right:313px;"></img>
+                                    <img src="img/clan/back/107.png" style="height:20px;width:20px;margin-top:5px;margin-left:8px;"></img></a>
+                                    <a href="/club?clan=Respect" style="position:relative;bottom:6px;font-size:12px;color: rgb(25, 25, 25);left:2px;text-decoration:none">
+                                        <div style="width:155px;display:inline-block">
+                                            Respect                                        </div>
+                                        <div style="width:70px;display:inline-block;text-align:center">
+                                            <span style="margin-left:2px;position:relative;top:-0px;left:15px;">&#x2605;&#x2605;</span>
+                                        </div>
+                                    </a>
+                                    <img src="img/crown.png" style="float:right;width:20px; height:20px;position:relative;right:6px;top:7px;" title="Win Ratio"></img> <a style="opacity:0.9;float:right;position:relative;top:10px;font-size:12px;color: rgb(25, 25, 25);right: 10px;">46.27%</a>
+                                </div>
+                                                    </div>
+                        
+                    </div>
+                </div>
+                <div class="border1_middle_right">
+                </div>
+            </div>
+            <div style="height: 13px; width: 355px;">
+                <div class="border1_bottom_middle" style="width: 353px;position: relative;left: 1px;">
+                </div>
+            </div>
+        </div>
+        <!--    <a href="/shop"><div style="float:left;display:inline-block;position:relative;top:12px;">
+            <img src="/img/front_banner_halloween.png" style="width:570px;height:230px;"/>
+        </div></a>-->
+        <!--<a href="/club?player=">
+            <div style="position:relative;top:12px;float:left">
+                <img src="/img/front_banner_club_default2.png" style="width:570px;height:112px;"/>
+            </div>
+        </a>-->
+        <!--<a href="https://www.facebook.com/ToyheroesEPT/">
+            <div style="position:relative;top:15px;float:left">
+                <img src="/img/front_banner_fb_default2.png" style="width:570px;height:112px;"/>
+            </div>
+        </a>-->
+        <a href="/club?player=">
+            <div style="position:relative;top:13px;float:left">
+                <img src="/img/guides.png" style="width:570px;height:268px;"/>
+            </div>
+        </a>
+    </div>
+</div>
+
+</div>
+<div class="footer_wrapper">
+    <div class="footer_container">
+        <div>
+            <img style="height: 79px;width:171px;position:relative;top:-22px;" src="img/esrb_logo.jpg">
+        </div>
+        <div>
+            <img style="width: 254px;height: 75px;position:relative;top:-22px;" src="img/pegi_logo.png">
+        </div>
+        <div class="eptmedia_logo">
+            <img src="img/footer_rh_logo.png" style="height:31px;width: 116px;margin-left:5px;"></div>
+        <div class="nq_logo">
+                <img src="img/footer_logo_nqgames.png" style="height:31px;width: 116px;margin-left:5px;"></div>
+        <!--<div class="info">
+            <div class="column1">
+                <a href="./tos">Terms of Service</a></div>
+            <div class="column2">
+                <a href="./tos">Privacy Policy</a></div>
+        </div>-->
+        <div style="float: right;height: 30px;margin-right: 25px;width: 200px;margin-top:5px;">
+            <a href="/tos" style="font-size:12px;text-decoration: underline;margin-right:15px;margin-left:15px;color: #D3D3D3;">Terms of Service</a>
+            <a href="/tos" style="font-size:12px;text-decoration: underline;color: #D3D3D3;">Privacy Policy</a>
+        </div>
+        <div style="width: 1px; height: 1px; display: none">
+            <img style=" width:1px; height:1px; " src=""
+                alt="">
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

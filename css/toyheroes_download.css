@@ -1,0 +1,4307 @@
+.bottom_wrapper {
+    width: 948px;
+    margin-top: 0px;
+    /*background-image: url(../img/bg_transparent1.png);*/
+    background-color: #292C34;
+    position: relative;
+    padding: 5px 5px 5px 5px;
+    display: block;
+    border: 1px solid #6D6D6D;
+    height: 820px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+#wrapper {
+	width: 100%;
+}
+
+
+
+
+#wrapper_header {
+	height: 475px;
+	width: 100%;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	background-image: url(../img/mv/body_bg3.html);
+	background-repeat: no-repeat;
+	background-position: center top;
+	clear: both;
+}
+#wrapper2 {
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center 0px;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../img/mv/bg2.html);
+	background-color: #081526;
+	background-attachment: fixed;
+}
+
+#wrapper_header2 {
+	height: 179px;
+	width: 100%;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	clear: both;
+	background-image: url(../img/mv/bg2b.html);
+}
+
+#wrapper3 {
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../img/mv/bg1.html);
+	background-color: #081526;
+	background-attachment: fixed;
+	min-height: 680px;
+}
+#wrapper_header3 {
+	height: 410px;
+	width: 100%;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-repeat: no-repeat;
+	background-position: center 156px;
+	clear: both;
+	background-image: url(../img/mv/bg1b.html);
+}
+
+
+#wrapper_middle {
+	width: 100%;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	clear: both;
+}
+#wrapper_footer {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	width: 100%;
+}
+#footer {
+	padding: 0px;
+	height: 100px;
+	width: 960px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-image: url(../img/mv/footer_bg1.html);
+	background-repeat: no-repeat;
+	background-position: center 0px;
+}
+#footer_container {
+	width: 960px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding: 0px;
+}
+.footer_company_info {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #439EE9;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+
+
+
+#blanket {
+	opacity: 0.40;
+	position:absolute;
+	z-index: 10000;
+	width:100%;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	clear: both;
+	background-image: url(../img/mv/shade1x1.html);
+	background-repeat: repeat;
+}
+#popUpDiv1 {
+	background-color:transparent;
+	width:722px;
+	height:300px;
+	z-index: 10001;
+	margin-top: -200px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: -250px;
+	position: fixed;
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/company_info/info_bg1.html);
+	background-repeat: no-repeat;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+}
+#popUpDiv1 div h1 {
+	padding: 0px;
+	font-size: 23px;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-weight: bold;
+}
+#popUpDiv1 #footer_iframe1 {
+	padding: 0px;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-color: #FFF;
+	border: 1px solid #ADADAD;
+}
+
+#popUpDiv2 {
+	background-color:transparent;
+	width:722px;
+	height:300px;
+	z-index: 10001;
+	margin-top: -200px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: -250px;
+	position: fixed;
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/company_info/info_bg1.html);
+	background-repeat: no-repeat;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+}
+#popUpDiv2 div h1 {
+	padding: 0px;
+	font-size: 23px;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-weight: bold;
+}
+#popUpDiv2 #footer_iframe1 {
+	padding: 0px;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-color: #FFF;
+	border: 1px solid #ADADAD;
+}
+
+#top1 {
+	height: 26px;
+	width: 100%;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	top: 0px;
+}
+#top2 {
+	padding: 0px;
+	width: 960px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	height: 26px;
+}
+
+
+.bar1 {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+	padding: 0px;
+	text-decoration: none;
+}
+.bar1 p {
+	margin: 0px;
+	padding-top: 3px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	color: #FFF;
+	font-weight: bold;
+}
+.bar1_right {
+	background-image: url(../img/mv/bar1_right.html);
+	background-repeat: no-repeat;
+	height: 26px;
+	width: 14px;
+	margin: 0px;
+	padding: 0px;
+	background-position: left 0px;
+}
+.bar1_left {
+	background-image: url(../img/mv/bar1_left.html);
+	background-repeat: no-repeat;
+	height: 26px;
+	width: 14px;
+	margin: 0px;
+	padding: 0px;
+	background-position: right 0px;
+}
+.bar1_middle {
+	background-image: url(../img/mv/bar1_middle.html);
+	background-repeat: repeat-x;
+	height: 26px;
+	margin: 0px;
+	padding: 0px;
+}
+.border_flag {
+	border: 1px solid #5EB3FF;
+}
+
+
+.footer_close_btn {
+	padding: 0px;
+	float: right;
+	height: 15px;
+	width: 15px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	position: relative;
+	left: 0px;
+	top: -62px;
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/company_info/info_close_OFF.html);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.footer_close_btn:hover {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/company_info/info_close_ON.html);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+
+
+
+
+.floatleft {
+	float: left;
+}
+
+.footer_popup_container {
+	background-color: #5C94E6;
+	height: 500px;
+	width: 900px;
+	clear: both;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#footer h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #FFF;
+	text-decoration: none;
+}
+#footer h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #FFF;
+	text-decoration: none;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+#footer_container ul      {
+	margin: 0px;
+	list-style-type: none;
+}
+#footer_container ul li a {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	float: left;
+	display: inline;
+}
+#footer_container a {
+	color: #AAE3FF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-top: 2px;
+}
+#footer_container a:hover {
+	color: #FFF;
+}
+
+
+#footer_container a img {
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+}
+
+/*body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #0F0F17;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	background-repeat: repeat;
+	background-position: 0px 0px;
+}*/
+p {
+	margin: 0px;
+	padding: 0px;
+	color: #272727;
+	font-size: 13px;
+}
+a {
+	color: #273693;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #4D61E0;
+}
+h2 {
+	font-size: 13px;
+	color: #272727;
+	margin: 0px;
+	padding: 0px;
+}
+h1 {
+	color: #272727;
+	font-size: 20px;
+	margin: 0px;
+	padding: 0px;
+}
+h3 {
+	font-size: 16px;
+	margin: 0px;
+	padding: 0px;
+	color: #333;
+}
+
+
+h4 {
+	font-size: 10px;
+	color: #272727;
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+}
+
+
+#header {
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding: 0px;
+}
+
+#header_logo  {
+	padding: 0px;
+	position: absolute;
+	z-index: 1000000;
+	visibility: visible;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-image: url(../img/mv/logo1_header.html);
+	background-repeat: no-repeat;
+	background-position: left 0px;
+	top: 10px;
+	left: 40%;
+	margin: 0px;
+}
+#header_logo_hide {
+	text-indent: -50000px;
+	display: block;
+	height: 94px;
+	width: 210px;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1000000000;
+	top: -1000px;
+}
+
+.header_logo  {
+	padding: 0px;
+	height: 94px;
+	width: 210px;
+	position: absolute;
+	z-index: 1000000;
+	top: 10px;
+	right: 47%;
+	margin: 0px;
+	visibility: visible;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.header_logo_hide {
+	text-indent: -50000px;
+	display: block;
+	height: 94px;
+	width: 210px;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1000000000;
+	top: -1000px;
+}
+
+.header_logo2  {
+	margin: 0px;
+	padding: 0px;
+	height: 36px;
+}
+
+
+#header .nav_mini{
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 40px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-color: #FFF;
+}
+.header_container {
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#textfield_login_username {
+	background-color: transparent;
+	height: 24px;
+	color: #FFF;
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/login/login_textfield_bg.html);
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+	width: 199px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#textfield_login_password {
+	background-color: transparent;
+	height: 24px;
+	color: #FFF;
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/login/login_textfield_bg.html);
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+	width: 199px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.header_container_login {
+	height: 145px;
+	width: 317px;
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/login/login_bg1.html);
+	background-repeat: no-repeat;
+}
+
+
+.header_container_login2 {
+	height: 101px;
+	width: 313px;
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/login/login_bg2.html);
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+
+
+
+
+.header_container_login3 {
+	margin: 0px;
+	padding: 0px;
+	height: 217px;
+	width: 538px;
+
+}
+.header_container_login3_header {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/Login/login_heading.html);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 30px;
+	width: 320px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+}
+.header_container_login3_header h1 {
+	font-size: 14px;
+	color: #202020;
+	padding-top: 4px;
+	padding-right: 0px;
+	padding-bottom: 4px;
+	padding-left: 12px;
+	text-align: left;
+	margin: 0px;
+}
+
+.header_container_login3_micro_feed{
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/login/login_shelf_2.html);
+	padding: 0px;
+	height: 219px;
+	width: 199px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+.header_container_login3_micro_profile {
+	margin: 0px;
+	padding: 0px;
+	height: 219px;
+	width: 332px;
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/login/login_bg2-2.html);
+	background-repeat: no-repeat;
+	background-position: 0px 7px;
+}
+
+.header_container_login3_player_info {
+	width: 170px;
+	margin: 10px;
+}
+.header_container_login3_player_info h2 {
+	margin: 0px;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 0px;
+}
+.header_container_login3_player_info p {
+	margin: 0px;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 0px;
+}
+
+
+
+.header_container_login3_player_photo_container {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/login/login_bg3.html);
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+	height: 115px;
+	width: 117px;
+	background-position: right 0px;
+}
+.header_container_login3_player_info a {
+	font-size: 11px;
+}
+
+.header_container_login3_player_stats {
+	width: 190px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.header_container_login3_player_stats p {
+	margin: 0px;
+	font-size: 12px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.header_container_login3_player_stats h2 {
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 7px;
+}
+
+.header_container_login3_player_statsbg{
+	background-color: #FFF;
+	border: 1px solid #B9BFBF;
+	}
+
+
+.header_container_login3_header_player_photo {
+	border: 3px solid #333;
+	padding: 0px;
+	margin: 0px;
+}
+.header_container_login3_player_h2_bg p {
+	padding: 5px;
+	font-size: 13px;
+	font-weight: bold;
+	background-color: #E6E7E7;
+}
+
+
+.header_container_login4 {
+	height: 114px;
+	width: 317px;
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/login/login_bg4.html);
+	background-repeat: no-repeat;
+}
+
+
+
+.header_dashed_line {
+	border-top-width: 1px;
+	border-top-style: dashed;
+	border-top-color: #999;
+}
+.header_container_login a {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.header_banner {
+	height: 217px;
+	width: 380px;
+	margin: 0px;
+	padding: 0px;
+}
+.header_important_text h1 {
+	font-size: 28px;
+	font-weight: bold;
+	color: #FC0;
+}
+
+
+
+.A_content {
+	padding: 0px;
+	width: 959px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 3px;
+	margin-left: auto;
+}
+.A_top_bar {
+	background-image: url(../img/mv/contentA_bg_top1.html);
+	background-repeat: no-repeat;
+	height: 13px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.A_bottom_bar {
+	background-image: url(../img/mv/contentA_bg_bottom1.html);
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+	height: 15px;
+}
+
+.A_middle_bar {
+	background-image: url(../img/mv/contentA_bg_middle1.html);
+	background-repeat: repeat-y;
+	margin: 0px;
+	padding: 0px;
+}
+.A_middle_container      {
+	padding: 0px;
+	width: 930px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.gray_bg {
+	background-color: #D6D5E3;
+}
+
+.A_middle_container_left {
+	padding: 0px;
+	margin: 7px;
+	width: 596px;
+}
+.A_middle_container_left_c1 {
+	background-color: #630;
+	width: 203px;
+}
+.A_middle_container_left_c1_top {
+	background-image: url(../img/mv/A_right_c1_top.html);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin: 0px;
+	padding: 0px;
+	height: 39px;
+	width: 203px;
+}
+
+.A_middle_container_left_c1_top2 {
+	background-image: url(../img/mv/A_right_c1_top2.html);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin: 0px;
+	padding: 0px;
+	height: 10px;
+	width: 203px;
+}
+
+.A_middle_container_left_c1_top3_eng {
+	background-image: url(../img/mv/A_right_c1_top_club_house_eng.html);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin: 0px;
+	padding: 0px;
+	height: 48px;
+	width: 203px;
+}
+
+
+.A_middle_container_left_c1_top3_ger {
+	background-image: url(../img/mv/A_right_c1_top_club_house_ger.html);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin: 0px;
+	padding: 0px;
+	height: 48px;
+	width: 203px;
+}
+
+
+.A_middle_container_left_c1_top3_tur {
+	background-image: url(../img/mv/A_right_c1_top_club_house_tur.html);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin: 0px;
+	padding: 0px;
+	height: 48px;
+	width: 203px;
+}
+
+.facebook_like_en {
+	background-image: url(../img/mv/facebook_like_en.html);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin: 0px;
+	padding: 0px;
+	height: 48px;
+	width: 203px;
+}
+
+
+.facebook_like_de {
+	background-image: url(../img/mv/facebook_like_de.html);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin: 0px;
+	padding: 0px;
+	height: 48px;
+	width: 203px;
+}
+
+.facebook_like_tr {
+	background-image: url(../img/mv/facebook_like_tr.html);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin: 0px;
+	padding: 0px;
+	height: 48px;
+	width: 203px;
+}
+ 
+.A_middle_container_left_c1_top h1 {
+	font-size: 15px;
+	color: #333;
+	padding-top: 4px;
+	padding-right: 0px;
+	padding-bottom: 8px;
+	padding-left: 35px;
+	text-align: left;
+	margin: 0px;
+}
+.A_middle_container_left_c1_middle {
+	background-image: url(../img/mv/A_right_c1_middle.html);
+	background-repeat: repeat-y;
+	background-position: left top;
+	margin: 0px;
+	padding: 0px;
+	width: 203px;
+}
+.A_middle_container_left_c1_middle h1 {
+	font-size: 13px;
+	margin: 0px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 50px;
+	display: block;
+}
+.A_middle_container_left_c1_middle a h1 {
+	color: #273693;
+}
+
+.A_middle_container_left_c1_middle a:hover h1 {
+	color: #4D61E0;
+}
+.A_middle_container_left_c1_middle_content {
+	width: 182px;
+}
+.A_middle_container_left_c1_middle_content p {
+	font-size: 12px;
+	color: #4B4F5C;
+}
+.A_middle_container_left_c1_bottom {
+	background-image: url(../img/mv/A_right_c1_bottom.html);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin: 0px;
+	padding: 0px;
+	height: 14px;
+	width: 203px;
+}
+.A_middle_container_left_c2 {
+	width: 370px;
+}
+
+.A_middle_container_left_c2_top {
+	background-image: url(../img/mv/A_right_c2_top.html);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin: 0px;
+	padding: 0px;
+	height: 39px;
+	width: 370px;
+}
+.A_middle_container_left_c2_top h1 {
+	font-size: 15px;
+	color: #333;
+	padding-top: 4px;
+	padding-right: 0px;
+	padding-bottom: 8px;
+	padding-left: 42px;
+	text-align: left;
+	margin: 0px;
+}
+.A_middle_container_left_c2_middle {
+	background-image: url(../img/mv/A_right_c2_middle.html);
+	background-repeat: repeat-y;
+	background-position: left top;
+	margin: 0px;
+	padding: 0px;
+	width: 370px;
+}
+.A_middle_container_left_c2_middle_content a {
+	font-size: 12px;
+}
+.A_middle_container_left_c2_middle_content p {
+	font-size: 12px;
+	color: #FFF;
+	background-color: #758B99;
+}
+
+.A_middle_container_left_c2_middle_content {
+	width: 321px;
+}
+.A_middle_container_left_c2_bottom {
+	background-image: url(../img/mv/A_right_c2_bottom.html);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin: 0px;
+	padding: 0px;
+	height: 14px;
+	width: 370px;
+}
+
+
+
+.A_middle_container_right_c3 {
+	padding: 0px;
+	margin: 0px;
+	width: 322px;
+}
+.A_middle_container_right_c3_top {
+	background-image: url(../img/mv/A_right_c3_top.html);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin: 0px;
+	padding: 0px;
+	height: 39px;
+	width: 322px;
+}
+.A_middle_container_right_c3_top h1 {
+	font-size: 15px;
+	color: #333;
+	padding-top: 4px;
+	padding-right: 0px;
+	padding-bottom: 8px;
+	padding-left: 40px;
+	text-align: left;
+	margin: 0px;
+}
+.A_middle_container_right_c3_middle {
+	background-image: url(../img/mv/A_right_c3_middle.html);
+	background-repeat: repeat-y;
+	background-position: left top;
+	margin: 0px;
+	padding: 0px;
+	width: 322px;
+}
+.A_middle_container_right_c3_middle_content {
+	width: 300px;
+}
+.A_middle_container_right_c3_bottom {
+	background-image: url(../img/mv/A_right_c3_bottom.html);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin: 0px;
+	padding: 0px;
+	height: 14px;
+	width: 322px;
+}
+
+.A_middle_container_right {
+	padding: 0px;
+	margin: 7px;
+	width: 338px;
+}
+.A_middle_container_space1 {
+	padding: 0px;
+	margin: 7px;
+	width: 10px;
+}
+.A_middle_container_space2 {
+	padding: 0px;
+	margin: 7px;
+	width: 8px;
+}
+.B_top_bar {
+	background-image: url(../img/mv/contentB_bg_top1.html);
+	background-repeat: no-repeat;
+	height: 13px;
+	margin: 0px;
+	padding: 0px;
+}
+.B_bottom_bar {
+	background-image: url(../img/mv/contentB_bg_bottom1.html);
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+	height: 15px;
+}
+.B_middle_bar {
+	background-image: url(../img/mv/contentB_bg_middle1.html);
+	background-repeat: repeat-y;
+	margin: 0px;
+	padding: 0px;
+}
+.B_middle_container_left {
+	padding: 0px;
+	margin: 0px;
+}
+.B_middle_container_right {
+	padding: 0px;
+	margin: 7px;
+	width: 320px;
+}
+.B_middle_container_left_c1_top {
+	background-image: url(../img/mv/B_left_c1_top.html);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin: 0px;
+	padding: 0px;
+	height: 180px;
+	width: 930px;
+}
+.B_middle_container_left_c1_top h1 {
+	font-size: 16px;
+	color: #333;
+	padding-top: 6px;
+	padding-right: 0px;
+	padding-bottom: 8px;
+	padding-left: 15px;
+	text-align: left;
+	margin: 0px;
+}
+.B_middle_container_left_c1_middle {
+	background-image: url(../img/mv/B_left_c1_middle.html);
+	background-repeat: repeat-y;
+	background-position: left top;
+	margin: 0px;
+	padding: 0px;
+	width: 900px;
+}
+.B_middle_container_left_c1_middle_content a {
+	font-size: 12px;
+}
+.B_middle_container_left_c1_middle_content p {
+	font-size: 12px;
+	color: #333;
+}
+.B_middle_container_left_c1_middle_content h1 {
+	font-size: 18px;
+	color: #4B4F5C;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
+.B_middle_container_left_c1_middle_content h2 {
+	font-size: 14px;
+	color: #4B4F5C;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.B_middle_container_left_c1_middle_content {
+	width: 890px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.B_middle_container_left_c1_middle_content2 {
+	background-image: url(../img/mv/title_bg_1.html);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.B_middle_container_left_c1_middle_content2a {
+	width: 420px;
+	margin: 5px;
+}
+.B_middle_container_left_c1_middle_content3 {
+	background-color: #9ADAF5;
+}
+
+
+
+
+.B_middle_container_left_c1_bottom {
+	background-image: url(../img/mv/B_left_c1_bottom.html);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin: 0px;
+	padding: 0px;
+	height: 15px;
+	width: 900px;
+}
+
+.C_content {
+	padding: 0px;
+	width: 959px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.C_top_bar {
+	background-image: url(../img/mv/contentC_bg_top1.html);
+	background-repeat: no-repeat;
+	height: 13px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.C_bottom_bar {
+	background-image: url(../img/mv/contentC_bg_bottom1.html);
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+	height: 15px;
+}
+
+.C_middle_bar {
+	background-image: url(../img/mv/contentC_bg_middle1.html);
+	background-repeat: repeat-y;
+	margin: 0px;
+	padding: 0px;
+}
+.C_middle_container      {
+	padding: 0px;
+	width: 950px;
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+}
+.C_middle_container_left {
+	padding: 0px;
+	width: 220px;
+	margin: 0px;
+}
+.C_middle_container_right_c1 {
+	padding: 0px;
+	width:709px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.C_middle_container_right_c1_characters_left {
+	width: 390px;
+	margin: 0px;
+	padding: 0px;
+}
+.C_middle_container_right_c1_characters_right {
+	width: 276px;
+	margin: 0px;
+	padding: 0px;
+}
+.C_middle_container_right_c1_characters_right_story {
+	background-color: #FF9;
+	width: 276px;
+	margin: 0px;
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/guide/characters/characters_story_bg.html);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.C_middle_container_right_c1_characters_right_story p {
+	padding-top: 50px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+}
+
+
+
+.C_middle_container_right_c1_top {
+	background-image: url(../img/mv/C_right_c1_top.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px 15px;
+	margin: 0px;
+	padding: 0px;
+	height: 9px;
+	min-height: 15px;
+	width: 709px;
+}
+.C_middle_container_right_c1_top2 {
+	background-image: url(../img/mv/C_right_c1_top.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 9px;
+	min-height: 15px;
+	width: 709px;
+}
+
+.C_middle_container_right_c1_middle {
+	background-image: url(../img/mv/C_right_c1_middle.jpg);
+	background-repeat: repeat-y;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 1px;
+	width: 709px;
+}
+.C_middle_container_right_c1_bottom {
+	background-image: url(../img/mv/C_right_c1_bottom.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 18px;
+	width: 709px;
+}
+.C_middle_container_right_c1_middle_content {
+	width: 680px;
+}
+.C_middle_container_right_c1_middle_content_header {
+	background-image: url(../img/mv/C_right_header1.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding: 0px;
+	height: 40px;
+	width: 265px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
+
+
+.C_middle_container_right_c1_middle_content_header h1 {
+	font-size: 15px;
+	color: #333;
+	padding-top: 4px;
+	padding-right: 0px;
+	padding-bottom: 8px;
+	padding-left: 25px;
+	text-align: left;
+	margin: 0px;
+}
+.C_middle_container_right_c1_middle_content_header2 {
+	background-image: url(../img/mv/C_right_header2.html);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding: 0px;
+	height: 38px;
+	width: 322px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
+.C_middle_container_right_c1_middle_content_header2 h1 {
+	font-size: 15px;
+	color: #333;
+	padding-top: 4px;
+	padding-right: 0px;
+	padding-bottom: 8px;
+	padding-left: 20px;
+	text-align: left;
+	margin: 0px;
+}
+
+.C_middle_container_right_c2_characters {
+	background-image: url(../img/mv/C_right_c2_characters.html);
+	background-repeat: no-repeat;
+	background-position: 0px 15px;
+	margin: 0px;
+	padding: 0px;
+	height: 388px;
+	min-height: 15px;
+	width: 351px;
+}
+
+
+.C_middle_container_right_c2_top {
+	background-image: url(../img/mv/C_right_c2_top.html);
+	background-repeat: no-repeat;
+	background-position: 0px 15px;
+	margin: 0px;
+	padding: 0px;
+	height: 8px;
+	min-height: 15px;
+	width: 351px;
+}
+
+.C_middle_container_right_c2_top2 {
+	background-image: url(../img/mv/C_right_c2_top.html);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 8px;
+	min-height: 15px;
+	width: 342px;
+}
+.C_middle_container_right_c2_top3 {
+	background-image: url(../img/mv/C_right_c2_top4.html);
+	background-repeat: no-repeat;
+	background-position: 0px 15px;
+	margin: 0px;
+	padding: 0px;
+	height: 66px;
+	min-height: 15px;
+	width: 342px;
+}
+
+.C_middle_container_right_c2_top4 {
+	background-image: url(../img/mv/C_right_c2_top4.html);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 8px;
+	min-height: 15px;
+	width: 342px;
+}
+
+.C_middle_container_right_c2_top5 {
+	background-image: url(../img/mv/C_right_c2_top4.html);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 40px;
+	min-height: 15px;
+	width: 342px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+}
+
+.C_middle_container_right_c2_middle {
+	background-image: url(../img/mv/C_right_c2_middle.html);
+	background-repeat: repeat-y;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 1px;
+	width: 351px;
+}
+
+.C_middle_container_right_c2_middle3 {
+	background-image: url(../img/mv/C_right_c2_middle2.html);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 1px;
+	width: 351px;
+}
+
+
+.C_middle_container_right_c2_middle_content {
+	margin: 0px;
+	width: 321px;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+}
+
+.C_middle_container_right_c2_bottom {
+	background-image: url(../img/mv/C_right_c2_bottom.html);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 14px;
+	width: 351px;
+}
+
+
+
+
+.C_middle_container_right_c3_middle_content_header {
+	background-image: url(../img/mv/C_right_header1.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding: 0px;
+	height: 40px;
+	width: 265px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
+
+
+.C_middle_container_right_c3_middle_content_header h1 {
+	font-size: 15px;
+	color: #333;
+	padding-top: 4px;
+	padding-right: 0px;
+	padding-bottom: 8px;
+	padding-left: 25px;
+	text-align: left;
+	margin: 0px;
+}
+
+
+.C_middle_container_right_c4 {
+	padding: 0px;
+	width:709px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+
+
+.C_middle_container_right_c4_top {
+	background-image: url(../img/mv/C_right_c4_top.html);
+	background-repeat: no-repeat;
+	background-position: 0px 15px;
+	margin: 0px;
+	padding: 0px;
+	height: 4px;
+	min-height: 15px;
+	width: 422px;
+}
+.C_middle_container_right_c4_top2 {
+	background-image: url(../img/mv/C_right_c4_top.html);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 4px;
+	min-height: 15px;
+	width: 429px;
+}
+
+
+.C_middle_container_right_c4_middle {
+	background-image: url(../img/mv/C_right_c4_middle.html);
+	background-repeat: repeat-y;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	width: 422px;
+}
+.C_middle_container_right_c4_bottom {
+	background-image: url(../img/mv/C_right_c4_bottom.html);
+	background-repeat: no-repeat;
+	background-position: 0px bottom;
+	margin: 0px;
+	padding: 0px;
+	height: 10px;
+	width: 422px;
+}
+.C_middle_container_right_c4_middle_content {
+	width: 400px;
+}
+.C_middle_container_right_c4_middle_content .highlight:hover  {
+	background-color: #FFF;
+
+
+}
+
+.C_middle_container_right_c4_middle_content p {
+	font-size: 12px;
+	color: #FFF;
+	background-color: #758B99;
+	padding-right: 2px;
+	padding-left: 2px;
+	margin-right: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.C_middle_container_right_c4_middle_content_header {
+	background-image: url(../img/mv/C_right_header4.html);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding: 0px;
+	height: 40px;
+	width: 400px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
+
+
+.C_middle_container_right_c4_middle_content_header h1 {
+	font-size: 15px;
+	color: #333;
+	padding-top: 4px;
+	padding-right: 0px;
+	padding-bottom: 8px;
+	padding-left: 25px;
+	text-align: left;
+	margin: 0px;
+}
+.C_middle_container_right_c4_middle_content_header2 {
+	background-image: url(../img/mv/C_right_header2.html);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding: 0px;
+	height: 38px;
+	width: 322px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
+.C_middle_container_right_c4_middle_content_header2 h1 {
+	font-size: 15px;
+	color: #333;
+	padding-top: 4px;
+	padding-right: 0px;
+	padding-bottom: 8px;
+	padding-left: 20px;
+	text-align: left;
+	margin: 0px;
+}
+.C_middle_container_right_c5_top {
+	background-image: url(../img/mv/C_right_c5_top.html);
+	background-repeat: no-repeat;
+	background-position: 0px 15px;
+	margin: 0px;
+	padding: 0px;
+	height: 8px;
+	min-height: 15px;
+	width: 275px;
+}
+.C_middle_container_right_c5_top2 {
+	background-image: url(../img/mv/C_right_c5_top.html);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 8px;
+	min-height: 15px;
+	width: 275px;
+}
+
+.C_middle_container_right_c5_top3 {
+	background-image: url(../img/mv/C_right_c5_top3.html);
+	background-repeat: no-repeat;
+	background-position: 0px 15px;
+	margin: 0px;
+	padding: 0px;
+	height: 66px;
+	min-height: 15px;
+	width: 275px;
+}
+
+.C_middle_container_right_c5_top4 {
+	background-image: url(../img/mv/C_right_c5_top4.html);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 3px;
+	min-height: 15px;
+	width: 275px;
+}
+.C_middle_container_right_c5_middle_content_header {
+	background-image: url(../img/mv/C_right_header5.html);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding: 0px;
+	height: 38px;
+	width: 250px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
+
+.C_middle_container_right_c5_middle_content_header h1 {
+	font-size: 15px;
+	color: #333;
+	padding-top: 4px;
+	padding-right: 0px;
+	padding-bottom: 8px;
+	padding-left: 20px;
+	text-align: left;
+	margin: 0px;
+}
+
+.C_middle_container_right_c5_middle {
+	background-image: url(../img/mv/C_right_c5_middle.html);
+	background-repeat: repeat-y;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 1px;
+	width: 275px;
+}
+.C_middle_container_right_c5_middle2 {
+	background-image: url(../img/mv/C_right_c5_middle2.html);
+	background-repeat: repeat-y;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 1px;
+	width: 275px;
+}
+.C_middle_container_right_c5_middle4 {
+	background-image: url(../img/mv/C_right_c5_middle4.html);
+	background-repeat: repeat-y;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 1px;
+	width: 275px;
+}
+
+
+.C_middle_container_right_c5_middle_content {
+	margin: 0px;
+	width: 200px;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+}
+
+.C_middle_container_right_c5_bottom {
+	background-image: url(../img/mv/C_right_c5_bottom.html);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 14px;
+	width: 275px;
+}
+.C_middle_container_right_c5_bottom4 {
+	background-image: url(../img/mv/C_right_c5_bottom4.html);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 10px;
+	width: 275px;
+}
+
+
+
+.C_middle_container_right {
+	padding: 0px;
+	margin: 0px;
+	width: 726px;
+}
+
+.C_middle_container_space1 {
+	padding: 0px;
+	margin: 0px;
+	width: 4px;
+}
+.C_middle_container_space2 {
+	padding: 0px;
+	margin: 7px;
+	width: 8px;
+}
+.news_archive {
+	width: 255px;
+	background-color: #C1F1D2;
+}
+.C_right_news_archive_middle p {
+	font-size: 12px;
+	margin: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.news_archive_content {
+	margin: 10px;
+	padding: 0px;
+	width: 235px;
+}
+.C_right_news_archive_top {
+	background-image: url(../img/mv/C_right_news_archive_top.html);
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+	height: 5px;
+	width: 255px;
+	background-position: left top;
+}
+.C_right_news_archive_middle {
+	background-image: url(../img/mv/C_right_news_archive_middle.html);
+	background-repeat: repeat-y;
+	margin: 0px;
+	padding: 0px;
+	width: 255px;
+	background-position: left top;
+}
+
+.C_right_news_archive_bottom {
+	background-image: url(../img/mv/C_right_news_archive_bottom.html);
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+	height: 5px;
+	width: 255px;
+	background-position: left top;
+}
+
+
+.C_right_news_archive_middle_gray {
+	margin: 0px;
+	padding: 0px;
+	background-color: #333;
+}
+.C_right_news_archive_middle_gray h2 {
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	color: #FFF;
+}
+.C_right_news_archive_middle_gray p a{
+	color: #28A9FF;
+}
+.news_datetime {
+	font-size: 10px;
+}
+.C_middle_container_space3 {
+	padding: 0px;
+	margin: 0px;
+	width: 7px;
+}
+
+.download_mirror {
+	background-image: url(../img/mv/btn_download1_OFF.png);
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+	height: 39px;
+	width: 230px;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+
+
+.download_mirror:hover {
+	background-image: url(../img/mv/btn_download1_ON.png);
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+	height: 39px;
+	width: 230px;
+}
+/*.download_mirror a {
+	color: #000;
+	display: block;
+	padding-top: 10px;
+	text-align: left;
+	padding-left: 55px;
+	margin: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+}*/
+
+.download_req_green {
+	background-color: #CACACA;
+}
+.download_req {
+}
+.download_req h2 {
+	font-size: 13px;
+	color: #383838;
+	margin: 0px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	height: 20px;
+}
+.download_req p {
+	font-size: 12px;
+	margin: 0px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	height: 15px;
+}
+.download_text1  {
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.download_mirror2 {
+	background-image: url(../img/mv/btn_download_mirror_OFF.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	width: 153px;
+	color: #000;
+	height: 39px;
+	cursor: pointer;
+}
+.download_mirror2 a {
+	color: #000;
+	font-size: 13px;
+	font-weight: bold;
+	padding-top: 11px;
+	padding-right: 0px;
+	padding-bottom: 11px;
+	padding-left: 55px;
+	display: block;
+	margin: 0px;
+	text-align: left;
+}
+.download_mirror2 a:hover {
+	background-image: url(../img/mv/btn_download_mirror_ON.png);
+}
+.startgame_bg {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/login/login_shelf_1.html);
+	margin: 0px;
+	padding: 0px;
+	height: 160px;
+	width: 213px;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.startgame_btn_hide{
+	text-indent: -999em;
+	display: block;
+	height: 114px;
+	width: 124px;
+	overflow: hidden;
+}
+.startgame_btn_en {
+	background-color: transparent;
+	background-image: url(../img/mv/btn_startgame_OFF_en.html);
+	height: 114px;
+	width: 124px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center center;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.startgame_btn_en:hover {
+	background-color: transparent;
+	background-image: url(../img/mv/btn_startgame_ON_en.html);
+	background-repeat: no-repeat;
+}
+
+.startgame_btn_de {
+	background-color: transparent;
+	background-image: url(../img/mv/btn_startgame_OFF_de.html);
+	height: 114px;
+	width: 124px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center center;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.startgame_btn_de:hover {
+	background-color: transparent;
+	background-image: url(../img/mv/btn_startgame_ON_de.html);
+	background-repeat: no-repeat;
+}
+
+.startgame_btn_tr {
+	background-color: transparent;
+	background-image: url(../img/mv/btn_startgame_OFF_tr.html);
+	height: 114px;
+	width: 124px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center center;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.startgame_btn_tr:hover {
+	background-color: transparent;
+	background-image: url(../img/mv/btn_startgame_ON_tr.html);
+	background-repeat: no-repeat;
+}
+
+
+
+.startgame_btn2_hide{
+	height: 55px;
+	width: 202px;
+	display: block;
+	text-indent: -50000px;
+	overflow: hidden;
+	}
+
+
+.startgame_btn2_en {
+	background-color: transparent;
+	background-image: url(../img/mv/btn_startgame2_OFF_en.html);
+	height: 55px;
+	width: 202px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center center;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+.startgame_btn2_en:hover {
+	background-color: transparent;
+	background-image: url(../img/mv/btn_startgame2_ON_en.html);
+	background-repeat: no-repeat;
+}
+
+.startgame_btn2_de {
+	background-color: transparent;
+	background-image: url(../img/mv/btn_startgame2_OFF_de.html);
+	height: 55px;
+	width: 202px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center center;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+.startgame_btn2_de:hover {
+	background-color: transparent;
+	background-image: url(../img/mv/btn_startgame2_ON_de.html);
+	background-repeat: no-repeat;
+}
+
+.startgame_btn2_tr {
+	background-color: transparent;
+	background-image: url(../img/mv/btn_startgame2_OFF_tr.html);
+	height: 55px;
+	width: 202px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center center;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+.startgame_btn2_tr:hover {
+	background-color: transparent;
+	background-image: url(../img/mv/btn_startgame2_ON_tr.html);
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+.redtext {
+	color: #F30;
+}
+.greentext {
+	color: #090;
+}
+.whitetext {
+	color: #FFF;
+}
+
+
+.dashed_line1 {
+	border-top-width: 1px;
+	border-top-style: dashed;
+	border-top-color: #999;
+}
+.dashed_line2 {
+	border-top-width: 1px;
+	border-top-style: dashed;
+	border-top-color: #999;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding: 0px;
+}
+.dashed_line3 {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding: 0px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #999;
+}
+.dashed_line4 {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding: 0px;
+	border-right-width: 1px;
+	border-right-style: dashed;
+	border-right-color: #1772A6;
+}
+
+
+.solid_line1 {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #A3A3A3;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding: 0px;
+}
+.guide_mouse {
+	padding: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-repeat: no-repeat;
+	position: absolute;
+	margin: 0px;
+	left: 346px;
+	top: 33px;
+	width: 94px;
+	height: 176px;
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/guide/how_to_play/mouse.html);
+}
+.guide_keyboard {
+	padding: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-repeat: no-repeat;
+	position: absolute;
+	margin: 0px;
+	left: 10px;
+	top: 67px;
+	width: 280px;
+	height: 134px;
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/guide/how_to_play/keyboard.html);
+}
+.position_relative {
+	position: relative;
+}
+.position_absolute {
+	position: absolute;
+	left: 500px;
+	top: 491px;
+}
+
+.guide1 {
+	margin: 0px;
+	padding: 0px;
+	background-color: #FFF;
+}
+
+.guide1_keys {
+	margin: 0px;
+	padding: 0px;
+}
+.guide1_green {
+	background-color: #E6E8E7;
+}
+.s_table1 {
+}
+.s_table1_colortd_1 {
+	background-color: #FFF;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #B6B6B6;
+}
+.s_table1_colortd_2 {
+	background-color: #E7E7E7;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #B6B6B6;
+}
+.s_table1_colortd_3 {
+	background-color: #E7E7E7;
+}
+.s_table1_colortd_4 {
+	background-color: #FFF;
+}
+
+
+.s_table1 p {
+	font-size: 12px;
+	color: #333;
+	font-weight: bold;
+	padding-top: 7px;
+	padding-right: 0px;
+	padding-bottom: 7px;
+	padding-left: 0px;
+}
+
+.s_table1_heading4 {
+	color: #FFF;
+	background-image: url(../img/mv/heading_bg4.html);
+	height: 38px;
+	background-repeat: repeat-x;
+	background-position: 0px 7px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #B2B2B2;
+}
+.s_table1_sub_heading4 {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #7D8997;
+	height: 31px;
+	margin: 0px;
+	padding: 0px;
+}
+.s_table1_sub_heading4 h1 {
+	color: #232C33;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 0px;
+	padding-top: 9px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+
+.s_table1_sub_heading4_bg {
+	background-image: url(../img/mv/heading_sub_bg4.html);
+	background-repeat: repeat-x;
+	background-position: 0px bottom;
+	height: 35px;
+}
+
+.s_table1_heading4_icon {
+	float: right;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 3px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.s_table1_heading4 h2 {
+	color: #FF0;
+	text-align: left;
+	padding-left: 15px;
+	margin: 0px;
+	padding-top: 13px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+
+
+.C_middle_container_right_c2_middle2 {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/guide/characters/characters_story_bg.html);
+	background-repeat: repeat-y;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 400px;
+	width: 342px;
+}
+.C_middle_container_right_c2_middle2_content {
+	background-repeat: repeat-y;
+	background-position: 0px 0px;
+	width: 310px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding: 0px;
+}
+
+.guide_weapons_stats_right {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/guide/weapons/ws_bg_right.html);
+	background-repeat: no-repeat;
+	background-position: left 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 28px;
+	width: 2px;
+}
+.guide_weapons_stats_left {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/guide/weapons/ws_bg_left.html);
+	background-repeat: no-repeat;
+	background-position: right 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 28px;
+	width: 2px;
+}
+.guide_weapons_stats_middle {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/guide/weapons/ws_bg_middle.html);
+	background-repeat: repeat-x;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 28px;
+}
+.guide_weapons_stats_middle_c1 {
+	margin: 2px;
+	padding: 0px;
+}
+.guide_weapons_stats_middle_c1_A {
+	width: 25px;
+}
+.guide_weapons_stats_middle_c1_B {
+	width: 120px;
+}
+
+
+.guide_weapons_stats_middle_c1 p {
+	font-size: 11px;
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+}
+
+.guide_weapons_stats_middle_c1_bar {
+	height: 24px;
+	margin: 0px;
+	padding: 0px;
+	width: 12px;
+}
+.guide_weapons_stats_middle_spacer1 {
+	margin: 0px;
+	padding: 0px;
+	width: 1px;
+}
+#guide_weapons_stats {
+	float: left;
+	width: 300px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
+#guide_weapons_stats h2 {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+
+.guide_maps_spacer1 {
+	width: 20px;
+}
+
+
+.guide_maps_spacer2 {
+	height: 5px;
+}
+.guide_maps_show1 {
+	width: 160px;
+}
+.guide_maps_show1 h2 {
+	text-align: center;
+}
+
+.guide_maps_show1_img {
+	border: 2px solid #000;
+}
+.media_video_boarder1 {
+	padding: 2px;
+	border: 2px solid #CCC;
+}
+.media_video_sub {
+}
+.media_video_sub p {
+	font-size: 10px;
+	margin: 0px;
+	padding: 0px;
+}
+.media_video_sub h1 {
+	font-size: 10px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.textfield_player_search {
+	height: 26px;
+	background-image: url(../img/mv/form_textfield_bg2.html);
+	background-repeat: no-repeat;
+	width: 200px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-color: transparent;
+	color: #515151;
+}
+
+
+
+.textfield_register {
+	height: 26px;
+	background-image: url(../img/mv/form_textfield_bg1.html);
+	background-repeat: no-repeat;
+	width: 309px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-color: transparent;
+	color: #515151;
+}
+
+.textfield_register2 {
+	height: 26px;
+	background-image: url(../img/mv/form_textfield_bg3.html);
+	background-repeat: no-repeat;
+	width: 200px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-color: transparent;
+	color: #515151;
+}
+.textfield_my_account {
+	background-color: #B6E4FE;
+	border: 1px solid #000;
+	color: #484848;
+	margin: 0px;
+	padding: 0px;
+}
+
+.btn1 {
+	background-image: url(../img/mv/btn1_OFF.html);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 26px;
+	width: 93px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	cursor: pointer;
+}
+.btn1:hover {
+	background-image: url(../img/mv/btn1_ON.html);
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+}
+.btn1 a {
+	font-size: 12px;
+	color: #000;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	text-align: center;
+	display: block;
+	padding-top: 4px;
+	padding-right: 2px;
+	padding-bottom: 4px;
+	padding-left: 2px;
+}
+.btn1 a:hover {
+	color: #000;
+	padding-top: 2px;
+}
+
+.btn2 {
+	background-image: url(../img/mv/btn2_OFF.html);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 27px;
+	width: 115px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn2:hover {
+	background-image: url(../img/mv/btn2_ON.html);
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+}
+.btn2 a {
+	font-size: 12px;
+	color: #000;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	text-align: center;
+	display: block;
+	padding-top: 4px;
+	padding-right: 2px;
+	padding-bottom: 4px;
+	padding-left: 2px;
+}
+.btn2 a:hover {
+	color: #000;
+	padding-top: 2px;
+}
+
+
+.btn3 {
+	background-image: url(../img/mv/btn3_OFF.html);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 27px;
+	width: 106px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn3:hover {
+	background-image: url(../img/mv/btn3_ON.html);
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+}
+.btn3 a {
+	font-size: 12px;
+	color: #000;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	text-align: center;
+	display: block;
+	padding-top: 4px;
+	padding-right: 2px;
+	padding-bottom: 4px;
+	padding-left: 2px;
+}
+.btn3 a:hover {
+	color: #000;
+	padding-top: 2px;
+}
+
+
+.btn4 {
+	background-image: url(../img/mv/btn5_OFF.html);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 26px;
+	width: 180px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn4:hover {
+	background-image: url(../img/mv/btn5_ON.html);
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+}
+.btn4 a {
+	font-size: 12px;
+	color: #333;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	text-align: center;
+	display: block;
+	padding-top: 4px;
+	padding-right: 2px;
+	padding-bottom: 4px;
+	padding-left: 2px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn4 a:hover {
+	color: #000;
+	padding-top: 2px;
+}
+
+.btn_register3 {
+	background-image: url(../img/mv/btn_register3_OFF.html);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	padding: 0px;
+	height: 73px;
+	width: 320px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.btn_register3:hover {
+	background-image: url(../img/mv/btn_register3_ON.html);
+	background-position: 0px 0px;
+}
+.btn_register3 a {
+	font-size: 13px;
+	color: #333;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	text-align: center;
+	display: block;
+	padding-top: 22px;
+	padding-right: 2px;
+	padding-bottom: 22px;
+	padding-left: 2px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn_register3 a:hover {
+	color: #000;
+	padding-top: 24px;
+	padding-bottom: 26px;
+}
+.btn_guide_how_to_play {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_how_to_play_OFF.html);
+	background-position: left center;
+	margin: 0px;
+	padding: 0px;
+	height: 35px;
+	background-repeat: no-repeat;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn_guide_how_to_play:hover {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_how_to_play_ON.html);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.btn_guide_how_to_play.active {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_how_to_play_ON.html);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.btn_media_videos {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_videos_OFF.html);
+	background-position: left center;
+	margin: 0px;
+	padding: 0px;
+	height: 35px;
+	background-repeat: no-repeat;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn_media_videos:hover {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_videos_ON.html);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.btn_media_videos.active {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_videos_ON.html);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.btn_media_screenshots {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_screenshots_OFF.html);
+	background-position: left center;
+	margin: 0px;
+	padding: 0px;
+	height: 35px;
+	background-repeat: no-repeat;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn_media_screenshots:hover {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_screenshots_ON.html);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.btn_media_screenshots.active {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_screenshots_ON.html);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.btn_media_wallpapers {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_wallpapers_OFF.html);
+	background-position: left center;
+	margin: 0px;
+	padding: 0px;
+	height: 35px;
+	background-repeat: no-repeat;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn_media_wallpapers:hover {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_wallpapers_ON.html);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.btn_media_wallpapers.active {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_wallpapers_ON.html);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.btn_guide_characters {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_characters_OFF.html);
+	background-position: left center;
+	margin: 0px;
+	padding: 0px;
+	height: 35px;
+	background-repeat: no-repeat;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn_guide_characters:hover {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_characters_ON.html);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.btn_guide_characters.active {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_characters_ON.html);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.btn_guide_weapons {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_weapons_OFF.html);
+	background-position: left center;
+	margin: 0px;
+	padding: 0px;
+	height: 35px;
+	background-repeat: no-repeat;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn_guide_weapons:hover {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_weapons_ON.html);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.btn_guide_weapons.active {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_weapons_ON.html);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.btn_guide_maps_modes {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_maps_modes_OFF.html);
+	background-position: left center;
+	margin: 0px;
+	padding: 0px;
+	height: 35px;
+	background-repeat: no-repeat;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn_guide_maps_modes:hover {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_maps_modes_ON.html);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.btn_guide_maps_modes.active {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_maps_modes_ON.html);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.btn_support_faq {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_faq_OFF.html);
+	background-position: left center;
+	margin: 0px;
+	padding: 0px;
+	height: 35px;
+	background-repeat: no-repeat;
+	width: 182px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn_support_faq:hover {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_faq_ON.html);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.btn_support_faq.active {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_faq_ON.html);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+
+
+.btn_support_technical_support {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_technical_support_OFF.html);
+	background-position: left center;
+	margin: 0px;
+	padding: 0px;
+	height: 35px;
+	background-repeat: no-repeat;
+	width: 182px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn_support_technical_support:hover {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_technical_support_ON.html);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.btn_support_technical_support.active {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_technical_support_ON.html);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.btn_support_contact_us {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_contact_us_OFF.html);
+	background-position: left center;
+	margin: 0px;
+	padding: 0px;
+	height: 35px;
+	background-repeat: no-repeat;
+	width: 182px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn_support_contact_us:hover {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_contact_us_ON.html);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.btn_support_contact_us.active {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_contact_us_ON.html);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.btn_clubhouse_my_profile {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_my_profile_OFF.html);
+	background-position: left center;
+	margin: 0px;
+	padding: 0px;
+	height: 35px;
+	background-repeat: no-repeat;
+	width: 182px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn_clubhouse_my_profile:hover {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_my_profile_ON.html);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.btn_clubhouse_my_profile.active {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_my_profile_ON.html);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+
+.btn_clubhouse_battery {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_battery_OFF.html);
+	background-position: left center;
+	margin: 0px;
+	padding: 0px;
+	height: 35px;
+	background-repeat: no-repeat;
+	width: 182px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn_clubhouse_battery:hover {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_battery_ON.html);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.btn_clubhouse_battery.active {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_battery_ON.html);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.btn_clubhouse_news {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_news_OFF.html);
+	background-position: left center;
+	margin: 0px;
+	padding: 0px;
+	height: 35px;
+	background-repeat: no-repeat;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn_clubhouse_news:hover {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_news_ON.html);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.btn_clubhouse_news.active {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_news_ON.html);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.btn_clubhouse_forum {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_forum_OFF.html);
+	background-position: left center;
+	margin: 0px;
+	padding: 0px;
+	height: 35px;
+	background-repeat: no-repeat;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn_clubhouse_forum:hover {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_forum_ON.html);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.btn_clubhouse_forum.active {
+	background-image: url(../web/20111023160747im_/http_/www.microvolts.com/images/icons/icon_forum_ON.html);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.btn_redeem_en{
+	background-image: url(../img/mv/btn_redeem_OFF_en.html);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	width: 203px;
+	height: 51px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn_redeem_en:hover{
+	background-image: url(../img/mv/btn_redeem_ON_en.html);
+	background-repeat: no-repeat;
+}
+ 
+ 
+.btn_redeem_de{
+	background-image: url(../img/mv/btn_redeem_OFF_de.html);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	width: 203px;
+	height: 51px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn_redeem_de:hover{
+	background-image: url(../img/mv/btn_redeem_ON_de.html);
+	background-repeat: no-repeat;
+}
+ 
+ 
+.btn_redeem_tr {
+	background-image: url(../img/mv/btn_redeem_OFF_tr.html);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	width: 203px;
+	height: 51px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn_redeem_tr:hover {
+	background-image: url(../img/mv/btn_redeem_ON_tr.html);
+	background-repeat: no-repeat;
+}
+
+.btn_mediakit {
+	background-image: url(../img/mv/btn_mediakit_OFF_en.html);
+	height: 205px;
+	width: 178px;
+}
+.btn_mediakit:hover {
+	background-image: url(../img/mv/btn_mediakit_ON_en.html);
+}
+
+
+
+.my_account_photo {
+	padding: 0px;
+	border: 3px solid #64C1FD;
+	margin-top: 0px;
+	margin-right: 15px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+fieldset .download_form_legend {
+	font-size: 13px;
+	font-weight: bold;
+}
+.form_download {
+	border: 1px solid #999;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+
+
+
+
+
+
+.club_house_photo {
+	padding: 0px;
+	border: 3px solid #333;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+.club_house_spacer1 {
+	height: 10px;
+	width: 10px;
+}
+
+.club_house_bar_blue {
+	height: 35px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	width: 347px;
+	margin-top: 0px;
+	margin-right: 1px;
+	margin-bottom: 0px;
+	margin-left: 1px;
+	left: 3px;
+	padding: 0px;
+	background-repeat: no-repeat;
+	background-position: 0px 50px;
+	background-color: #61737F;
+}
+.club_house_bar_blue_container {
+	margin: 5px;
+}
+.club_house_bar1_container {
+	margin: 0px;
+	padding: 0px;
+}
+.club_house_bar1_container h4 {
+	font-size: 11px;
+}
+.club_house_bar1_container p {
+	padding-left: 5px;
+}
+.club_house_bar1_container a {
+	font-weight: bold;
+	color: #333;
+}
+.club_house_bar1_container a:hover {
+	color: #4D61E0;
+}
+
+
+.club_house_bar1_container_blue {
+	height: 20px;
+	background-color: #FFF;
+}
+
+.club_house_bar1_container_white {
+	height: 20px;
+	background-color: #E7E7E7;
+}
+.club_house_bar2_wallpost_delete a{
+	color: #4393E8;
+	font-size: 10px;
+}
+.club_house_bar3_container {
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 320px;
+}
+
+.club_house_stat_container {
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	height: 53px;
+	margin-top: 0px;
+}
+.club_house_stat_btn1 a , .club_house_stat_btn2 a{
+	font-weight: bold;
+	font-size: 12px;
+	padding: 0px;
+	width: 81px;
+	height: 50px;
+	display: block;
+	margin: 0px;
+}
+
+.club_house_stat_btn1 {
+	background-image: url(../img/mv/btn_club_house_stat_basic_OFF.html);
+	background-repeat: no-repeat;
+	background-position: 0px 3px;
+	height: 50px;
+	width: 81px;
+}
+.club_house_stat_btn1:hover {
+	background-image: url(../img/mv/btn_club_house_stat_basic_ON.html);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 50px;
+	width: 81px;
+	margin-top: 3px;
+}
+.club_house_stat_btn2 {
+	background-image: url(../img/mv/btn_club_house_stat_details_OFF.html);
+	background-repeat: no-repeat;
+	background-position: 0px 3px;
+	height: 50px;
+	width: 81px;
+}
+.club_house_stat_btn2:hover {
+	background-image: url(../img/mv/btn_club_house_stat_details_ON.html);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 50px;
+	width: 81px;
+	margin-top: 3px;
+}
+.club_house_friends_btn {
+	width: 103px;
+	background-image: url(../img/mv/btn_club_house_friends_OFF.png);
+	background-repeat: no-repeat;
+	margin: 0px;
+	height: 33px;
+	padding: 0px;
+	float: left;
+	background-position: bottom;
+}
+.club_house_friends_btn:hover {
+	background-image: url(https://toyheroes.net/img/mv/btn_club_house_friends_ON.png);
+	background-repeat: no-repeat;
+}
+.club_house_friends_btn a {
+	color: #37CDFF;
+	font-weight: bold;
+	margin: 0px;
+	font-size: 12px;
+	float: left;
+	padding-top: 9px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	height: 19px;
+	width: 103px;
+	padding-right: 0px;
+	text-align: center;
+}
+.club_house_friends_btn a:hover {
+	color: #000;
+}
+
+
+
+
+.club_house_invite_btn {
+	width: 76px;
+	background-image: url(https://toyheroes.net/img/mv/btn_club_house_invite_OFF.jpg);
+	background-repeat: no-repeat;
+	margin: 0px;
+	height: 33px;
+	padding: 0px;
+	float: left;
+}
+.club_house_invite_btn:hover {
+	background-image: url(https://toyheroes.net/img/mv/btn_club_house_invite_ON.jpg);
+	background-repeat: no-repeat;
+}
+.club_house_invite_btn p  {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 8px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	font-size: 12px;
+}
+
+.orange_text  {
+	color: #F37200;
+}
+.register_step1_on {
+	background-image: url(https://toyheroes.net/img/mv/register_step1.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 45px;
+	width: 143px;
+}
+.register_step2_on {
+	background-image: url(https://toyheroes.net/img/mv/register_step1.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 45px;
+	width: 143px;
+}
+.register_step2_off {
+	background-image: url(https://toyheroes.net/img/mv/register_step1_OFF.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 45px;
+	width: 143px;
+}
+
+.register_step3_on {
+	background-image: url(https://toyheroes.net/img/mv/register_step3.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 45px;
+	width: 143px;
+}
+.register_step3_off {
+	background-image: url(https://toyheroes.net/img/mv/register_step3_OFF.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 45px;
+	width: 143px;
+}
+.register_steps   {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	padding: 0px;
+}
+.register_steps h1 {
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+
+
+.register_spacer {
+	width: 20px;
+}
+.register_flag_text p{
+	font-size: 12px;
+	font-weight: bold;
+}
+.register_flag_text p:hover {
+	color: #2257B0;
+}
+.register_thought_bubble {
+	background-image: url(https://toyheroes.net/web/20111023160747im_/http://www.microvolts.com/images/register/thought_bubble.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 195px;
+	width: 282px;
+}
+.register_thought_bubble_text {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 40px;
+	width: 200px;
+	font-weight: bold;
+	font-size: 18px;
+	color: #900;
+	text-align: center;
+}
+.register_thought_bubble_red_text  {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 200px;
+	font-weight: bold;
+	font-size: 18px;
+	color: #CE0000;
+	text-align: center;
+}
+.register_thought_bubble_blue_text {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 200px;
+	font-weight: bold;
+	font-size: 18px;
+	color: #325378;
+	text-align: center;
+}
+
+
+
+
+
+
+.support_faq1 ol p a{
+	font-size: 13px;
+
+}
+.support_faq1 ol li {
+	color: #333;
+	font-weight: bold;
+	padding-bottom: 9px;
+	font-size: 18px;
+	list-style-position: outside;
+	padding-left: 20px;
+	padding-top: 7px;
+	padding-right: 0px;
+	background-color: #FFF;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+.support_faq1_answer h1{
+	margin: 0px;
+	background-color: #CACACA;
+	padding-top: 7px;
+	padding-right: 0px;
+	padding-bottom: 9px;
+	padding-left: 10px;
+	color: #333;
+}
+.support_faq1_answer {
+	margin: 0px;
+	padding: 0px;
+}
+.support_tech_steps {
+	font-size: 20px;
+	background-image: url(https://toyheroes.net/web/20111023160747im_/http://www.microvolts.com/images/support/technical_support/step15.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 45px;
+	width: 45px;
+}
+.support_tech_steps h1 {
+	padding-top: 9px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	text-align: center;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: -3px;
+}
+.activate_betakey1 {
+	position: relative;
+	height: 47px;
+	width: 144px;
+	float: right;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-image: url(https://toyheroes.net/img/mv/btn_activate_betakey_big_OFF.png);
+	background-repeat: no-repeat;
+	background-position: 0px bottom;
+	padding: 0px;
+	right: 10px;
+}
+.activate_betakey1:hover {
+	background-image: url(https://toyheroes.net/img/mv/btn_activate_betakey_big_ON.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.activate_betakey1 a p {
+	font-weight: bold;
+	color: #FFF;
+	margin: 0px;
+	padding-top: 12px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 55px;
+	font-size: 14px;
+	line-height: 13px;
+}
+
+.activate_betakey2 {
+	height: 35px;
+	width: 177px;
+	float: right;
+	background-image: url(https://toyheroes.net/img/mv/btn_activate_betakey_small_OFF.png);
+	background-repeat: no-repeat;
+	background-position: 0px bottom;
+	padding: 0px;
+	margin: 0px;
+}
+.activate_betakey2:hover {
+	background-image: url(https://toyheroes.net/img/mv/btn_activate_betakey_small_ON.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.activate_betakey2 a p {
+	font-weight: bold;
+	color: #FFF;
+	margin: 0px;
+	padding-top: 12px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	font-size: 12px;
+	line-height: 13px;
+}
+
+.tournament_bg_blue {
+	background-image: url(https://toyheroes.net/img/mv/tournament_bg_blue.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 37px;
+	width: 184px;
+}
+.tournament_bg_blue h1 {
+	margin: 0px;
+	font-size: 15px;
+	padding-top: 12px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 39px;
+	color: #114FDF;
+}
+
+.tournament_bg_purple {
+	background-image: url(https://toyheroes.net/img/mv/tournament_bg_purple.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 37px;
+	width: 184px;
+}
+.tournament_bg_purple h1 {
+	margin: 0px;
+	font-size: 15px;
+	padding-top: 12px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 39px;
+	color: #683092;
+}
+
+.tournament_bg_yellow {
+	background-image: url(https://toyheroes.net/img/mv/tournament_bg_yellow.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 37px;
+	width: 184px;
+}
+.tournament_bg_yellow h1 {
+	margin: 0px;
+	font-size: 15px;
+	padding-top: 12px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 39px;
+	color: #F60;
+}
+
+.tournament_bg_green {
+	background-image: url(https://toyheroes.net/img/mv/tournament_bg_green.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 37px;
+	width: 184px;
+}
+.tournament_bg_green h1 {
+	margin: 0px;
+	font-size: 15px;
+	padding-top: 12px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 39px;
+	color: #060;
+}
+.ticket_history_headingbg {
+	background-color: #98CBE9;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #549398;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.ticket_history {
+	background-color: #E7E7E7;
+	width: 653px;
+	margin: 0px;
+	padding: 0px;
+}
+.ticket_history_headingbg h2 {
+	font-size: 11px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+.ticket_history p {
+	font-size: 11px;
+}
+#ticket_history_detail {
+	height: 630px;
+	width: 575px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	padding: 0px;
+}
+.D_content_1 {
+	padding: 0px;
+	width: 571px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.D_container_1_middle {
+	background-image: url(https://toyheroes.net/img/mv/contnetD_bg_middle.png);
+	background-repeat: repeat-y;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+}
+.D_container_1_middle_content {
+	width: 545px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+.D_content_1_bottom {
+	background-image: url(https://toyheroes.net/img/mv/contnetD_bg_bottom.png);
+	height: 16px;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+}
+.D_content_1_top1 {
+	background-image: url(https://toyheroes.net/img/mv/contnetD_bg_top1.png);
+	height: 9px;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+}
+.D_content_1_top2 {
+	background-image: url(https://toyheroes.net/img/mv/contnetD_bg_top2.png);
+	height: 9px;
+	background-repeat: no-repeat;
+	background-position: 0px 17px;
+	margin: 0px;
+	padding: 0px;
+}
+.D_container_1_middle_content1_whitebg {
+	background-color: #FFF;
+}
+.D_container_1_middle_content1_bluebg {
+	background-color: #D5F3FB;
+}
+.D_container_content_container {
+	margin: 0px;
+	padding: 0px;
+	width: 545px;
+}
+.D_container_1_middle_content1 {
+	margin: 0px;
+	width: 545px;
+}
+.D_container_1_middle_content1_lpost_time {
+	font-size: 9px;
+	color: #666;
+}
+.D_container_1_middle_content1_post {
+	width: 535px;
+	padding: 5px;
+}
+.D_container_1_middle_content1_post p {
+	margin: 0px;
+	padding: 0px;
+}
+.D_container_1_middle_content1_blue {
+	background-color: #E1F4FB;
+}
+.D_container_1_middle_content_status {
+	background-color: #FF9;
+	margin: 0px;
+	padding: 0px;
+	width: 200px;
+}
+.btn_download_hide {
+	text-indent: -500000px;
+	display: block;
+	overflow: hidden;
+	height: 67px;
+	width: 159px;
+}
+.btn_download_en {
+	background-image: url(https://toyheroes.net/img/mv/btn_download2_OFF_en.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 73px;
+	width: 159px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn_download_en:hover {
+	background-image: url(https://toyheroes.net/img/mv/btn_download2_ON_en.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.btn_download_de {
+	background-image: url(https://toyheroes.net/img/mv/btn_download2_OFF_de.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 73px;
+	width: 159px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn_download_de:hover {
+	background-image: url(https://toyheroes.net/img/mv/btn_download2_ON_de.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+
+
+.btn_download_tr {
+	background-image: url(https://toyheroes.net/img/mv/btn_download2_OFF_tr.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 73px;
+	width: 159px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn_download_tr:hover {
+	background-image: url(https://toyheroes.net/img/mv/btn_download2_ON_tr.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+
+
+
+.btn_register_en {
+	background-image: url(https://toyheroes.net/img/mv/btn_register2_OFF_en.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 73px;
+	width: 159px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn_register_en:hover {
+	background-image: url(https://toyheroes.net/img/mv/btn_register2_ON_en.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.btn_register_hide {
+	text-indent: -50000000px;
+	display: block;
+	height: 66px;
+	width: 159px;
+	overflow: hidden;
+}
+
+
+
+.btn_register_de {
+	background-image: url(https://toyheroes.net/img/mv/btn_register2_OFF_de.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 73px;
+	width: 159px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn_register_de:hover {
+	background-image: url(https://toyheroes.net/img/mv/btn_register2_ON_de.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+
+
+.btn_register_tr {
+	background-image: url(https://toyheroes.net/img/mv/btn_register2_OFF_tr.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 73px;
+	width: 159px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn_register_tr:hover {
+	background-image: url(https://toyheroes.net/img/mv/btn_register2_ON_tr.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+
+
+.btn_login_hide {
+	text-indent: -50000000px;
+	display: block;
+	overflow: hidden;
+	height: 50px;
+	width: 77px;
+}
+.btn_login_en {
+	background-image: url(https://toyheroes.net/img/mv/btn_login_OFF_en.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 58px;
+	width: 77px;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	left: 0px;
+	text-indent: -5000px;
+}
+.btn_login_en:hover {
+	background-image: url(https://toyheroes.net/img/mv/btn_login_ON_en.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.btn_login_de {
+	background-image: url(https://toyheroes.net/img/mv/btn_login_OFF_de.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 58px;
+	width: 77px;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	left: 0px;
+	text-indent: -5000px;
+}
+.btn_login_de:hover {
+	background-image: url(https://toyheroes.net/img/mv/btn_login_ON_de.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+
+
+.btn_login_tr {
+	background-image: url(https://toyheroes.net/img/mv/btn_login_OFF_tr.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 58px;
+	width: 77px;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	left: 0px;
+	text-indent: -5000px;
+}
+.btn_login_tr:hover {
+	background-image: url(https://toyheroes.net/img/mv/btn_login_ON_tr.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+
+
+
+
+.btn_login_submit_hide{
+	text-indent: -500000px;
+	display: block;
+	overflow: hidden;
+	height: 50px;
+	width: 77px;
+}
+
+
+
+
+.btn_login_submit_en {
+	background-image: url(https://toyheroes.net/img/mv/btn_sumbit_OFF_en.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 58px;
+	width: 77px;
+	position: relative;
+	top: 20px;
+	margin: 0px;
+	padding: 0px;
+	left: 0px;
+}
+
+.btn_login_submit_en:hover {
+	background-image: url(https://toyheroes.net/img/mv/btn_sumbit_ON_en.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+
+
+
+
+
+.btn_login_submit_de {
+	background-image: url(https://toyheroes.net/img/mv/btn_sumbit_OFF_de.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 58px;
+	width: 77px;
+	position: relative;
+	top: 20px;
+	margin: 0px;
+	padding: 0px;
+	left: 0px;
+}
+
+.btn_login_submit_de:hover {
+	background-image: url(https://toyheroes.net/img/mv/btn_sumbit_ON_de.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+
+
+.btn_login_submit_tr {
+	background-image: url(https://toyheroes.net/img/mv/btn_sumbit_OFF_tr.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 58px;
+	width: 77px;
+	position: relative;
+	top: 20px;
+	margin: 0px;
+	padding: 0px;
+	left: 0px;
+}
+
+.btn_login_submit_tr:hover {
+	background-image: url(https://toyheroes.net/img/mv/btn_sumbit_ON_tr.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+
+
+
+.btn_brothersoft {
+	background-image: url(https://toyheroes.net/img/mv/download_brothersoft_OFF.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 39px;
+	width: 153px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn_brothersoft:hover {
+	background-image: url(https://toyheroes.net/img/mv/download_brothersoft_ON.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.btn_brothersoft_hide {
+	text-indent: -500000px;
+	display: block;
+	overflow: hidden;
+	height: 39px;
+	width: 153px;
+}
+.btn_softpedia {
+	background-image: url(https://toyheroes.net/img/mv/download_softpedia_OFF.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 39px;
+	width: 153px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn_softpedia:hover {
+	background-image: url(https://toyheroes.net/img/mv/download_softpedia_ON.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.btn_softpedia_hide {
+	text-indent: -500000px;
+	display: block;
+	overflow: hidden;
+	height: 39px;
+	width: 153px;
+}
+.btn_mmosite {
+	background-image: url(https://toyheroes.net/img/mv/download_mmosite_OFF.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 39px;
+	width: 153px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn_mmosite:hover {
+	background-image: url(https://toyheroes.net/img/mv/download_mmosite_ON.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.btn_mmosite_hide {
+	text-indent: -500000px;
+	display: block;
+	overflow: hidden;
+	height: 39px;
+	width: 153px;
+}
+.btn_gamers_hell {
+	background-image: url(https://toyheroes.net/img/mv/download_gamershell_OFF.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 39px;
+	width: 153px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn_gamers_hell:hover {
+	background-image: url(https://toyheroes.net/img/mv/download_gamershell_ON.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.btn_gamers_hell_hide {
+	text-indent: -500000px;
+	display: block;
+	overflow: hidden;
+	height: 39px;
+	width: 153px;
+}
+.btn_cnet_download {
+	background-image: url(https://toyheroes.net/img/mv/download_cnet_OFF.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 39px;
+	width: 153px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn_cnet_download:hover {
+	background-image: url(https://toyheroes.net/img/mv/download_cnet_ON.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.btn_cnet_download_hide {
+	text-indent: -500000px;
+	display: block;
+	overflow: hidden;
+	height: 39px;
+	width: 153px;
+}
+
+
+.comments_1 {
+	background-image: url(https://toyheroes.net/img/mv/comments_bg1.png);
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 15px;
+	width: 35px;
+	background-repeat: no-repeat;
+}
+.comments_1 h1 {
+	font-size: 11px;
+	text-align: left;
+	padding-left: 10px;
+	font-weight: bold;
+	color: #295674;
+}
+.v_line1 {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #D4D4D4;
+	width: 1px;
+}
+
+
+.redeem_list1 {
+}
+.redeem_box {
+	background-image: url(https://toyheroes.net/img/mv/redeem_bg1.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 170px;
+	width: 318px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.redeem_box2 {
+	background-image: url(https://toyheroes.net/img/mv/redeem_bg2.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	width: 675px;
+	position: relative;
+	top: -90px;
+	padding: 0px;
+	height: 173px;
+	float: left;
+	left: 10px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.redeem_box2 p {
+	margin: 0px;
+	padding-top: 145px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+.redeem_list1 ol li p {
+	font-size: 12px;
+	font-weight: normal;
+}
+.redeem_list1 ol {
+	list-style-position: outside;
+	color: #F60;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	font-size: 10px;
+	font-weight: bold;
+}
+.sub_heading1 {
+	color: #333;
+	background-image: url(https://toyheroes.net/img/mv/heading_bg5.png);
+	height: 22px;
+	background-repeat: repeat-x;
+	background-position: 0px 0px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #98A0AD;
+}.sub_heading1 p {
+	font-weight: bold;
+	background-color: transparent;
+	padding-top: 7px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin: 0px;
+	float: left;
+	font-size: 10px;
+}
+.sub_heading1_news_legend {
+	float: left;
+}
+.sub_heading1_news_legend_spacer {
+	height: 10px;
+	width: 10px;
+	float: left;
+}
+
+.sub_heading1_news_legend p {
+	color: #171515;
+}
+.btn6 {
+	background-image: url(https://toyheroes.net/img/mv/btn6_OFF.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 21px;
+	width: 59px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	cursor:pointer;
+}
+
+.btn6:hover {
+	background-image: url(https://toyheroes.net/img/mv/btn6_ON.png);
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+}
+.btn6 a {
+	font-size: 11px;
+	color: #242424;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	text-align: center;
+	display: block;
+	padding-top: 4px;
+	padding-right: 2px;
+	padding-bottom: 4px;
+	padding-left: 2px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn6 a:hover {
+	color: #000;
+}
+.btn6b {
+	background-image: url(https://toyheroes.net/img/mv/btn6_OFF2.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	height: 13px;
+	width: 55px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	padding-top: 4px;
+	padding-right: 2px;
+	padding-bottom: 4px;
+	padding-left: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #9F9F9F;
+	text-align: center;
+	cursor:default;
+}
+
+.btn7 {
+	background-image: url(https://toyheroes.net/img/mv/btn7_OFF.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	padding: 0px;
+	height: 21px;
+	width: 85px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	cursor:pointer;
+}
+.btn7:hover {
+	background-image: url(https://toyheroes.net/img/mv/btn7_ON.png);
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+}
+.btn7 a {
+	font-size: 11px;
+	color: #242424;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	text-align: center;
+	display: block;
+	padding-top: 4px;
+	padding-right: 2px;
+	padding-bottom: 4px;
+	padding-left: 2px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.btn7 a:hover {
+	color: #000;
+}
+.btn7b {
+	background-image: url(https://toyheroes.net/img/mv/btn7_OFF2.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	height: 13px;
+	width: 85px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	padding-top: 4px;
+	padding-right: 2px;
+	padding-bottom: 4px;
+	padding-left: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #9F9F9F;
+	text-align: center;
+	cursor:default;
+}
